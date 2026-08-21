@@ -33,9 +33,18 @@ residuals, provenance hashes). It also checks the compact `objective_main_figure
 against the released N15 objective summaries so the publication-facing objective values stay synchronized.
 
 A source-only fresh clone does **not** contain the large `state_history.npz` trajectories needed by
-the centralized-reference/R2 recomputation, so `validate_results.py` is expected to fail until those
-trajectories have been generated. This fail-closed behavior is deliberate. Level 3 creates the complete
-artefact set and then re-runs the validator.
+the centralized-reference/R2 recomputation. The complete numerical artefact set corresponding to the
+published `v1.0.0` release can be downloaded from:
+
+https://github.com/kovariati/D-SCEOS/releases/download/v1.0.0/D-SCEOS-v1.0.0-results-and-artifacts.zip
+
+with its SHA-256 checksum available at:
+
+https://github.com/kovariati/D-SCEOS/releases/download/v1.0.0/D-SCEOS-v1.0.0-results-and-artifacts.zip.sha256
+
+Without these released artefacts or locally regenerated trajectories, `validate_results.py` is expected
+to fail. This fail-closed behavior is deliberate. Level 3 independently regenerates the complete
+artefact set from the released code and then re-runs the validator.
 
 Does not establish by itself that the artefacts were produced from an empty state by the current code.
 Level 3 does that.
