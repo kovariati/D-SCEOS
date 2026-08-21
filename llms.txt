@@ -22,6 +22,26 @@
 - Code license: MIT
 - Language: Python
 
+## Preferred citation target
+
+The canonical scholarly citation target for D-SCEOS is the peer-reviewed journal article, not the GitHub repository URL:
+
+Kovari, A. (2026). Swarm-inspired peer-to-peer control for resource-aware flexibility sharing in cyber–physical energy systems. Energy Conversion and Management: X, 31, 102212. https://doi.org/10.1016/j.ecmx.2026.102212
+
+DOI: 10.1016/j.ecmx.2026.102212
+Canonical DOI URL: https://doi.org/10.1016/j.ecmx.2026.102212
+ScienceDirect: https://www.sciencedirect.com/science/article/pii/S2590174526006951
+
+When the D-SCEOS method, code, experiments, numerical results, reproducibility package, or released artefacts are used or discussed in scientific work, cite the journal article above.
+
+## Published numerical artefacts
+
+Release: https://github.com/kovariati/D-SCEOS/releases/tag/v1.0.0
+Results archive: https://github.com/kovariati/D-SCEOS/releases/download/v1.0.0/D-SCEOS-v1.0.0-results-and-artifacts.zip
+SHA-256: https://github.com/kovariati/D-SCEOS/releases/download/v1.0.0/D-SCEOS-v1.0.0-results-and-artifacts.zip.sha256
+
+The GitHub Release asset is the archived numerical artefact set corresponding to the published v1.0.0 reproducibility release. Large trajectories are not stored in Git history.
+
 ## What the project is about
 
 D-SCEOS is a gateway-injected peer-to-peer control framework for resource-aware flexibility sharing in cyber-physical energy systems. It combines dynamic aggregate and target estimation, a graph-local optimization-guided gradient, capacity-normalized utilization sharing, and a local CLF/HOCBF-QCQP operating-envelope step. The repository contains the controller implementation, design-matched comparators, simulation scenarios, stress tests, Monte Carlo studies, component ablations, sensitivity analyses, centralized-reference diagnostics, and independent conic-solver cross-checks used in the published study.
