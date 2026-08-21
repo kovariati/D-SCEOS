@@ -16,6 +16,8 @@
 - **ScienceDirect article:** https://www.sciencedirect.com/science/article/pii/S2590174526006951
 - **Canonical code repository:** https://github.com/kovariati/D-SCEOS
 - **Version corresponding to the published article:** [v1.0.0](https://github.com/kovariati/D-SCEOS/releases/tag/v1.0.0)
+- **Preferred citation target:** the peer-reviewed journal article at https://doi.org/10.1016/j.ecmx.2026.102212
+- **Published numerical artefacts:** [D-SCEOS v1.0.0 results and artefacts](https://github.com/kovariati/D-SCEOS/releases/download/v1.0.0/D-SCEOS-v1.0.0-results-and-artifacts.zip)
 
 If this repository, its implementation, experiments, or released results contribute to a publication, comparison, review, or derivative study, please cite the journal article above. Machine-readable citation files are provided in [`CITATION.cff`](CITATION.cff), [`CITATION.bib`](CITATION.bib), and [`CITATION.ris`](CITATION.ris).
 
@@ -182,7 +184,21 @@ A fresh clone is expected to fail result validation when required generated traj
 
 ## Data and artefact availability
 
-No external dataset is required for the numerical study. The evidence is generated from the simulation models, controller definitions, experiment configurations, and fixed/randomized seeds included in this repository. Large generated trajectories are recreated locally rather than permanently stored in Git history.
+No external dataset is required for the numerical study. The evidence is generated from the simulation models, controller definitions, experiment configurations, and fixed/randomized seeds included in this repository.
+
+The complete numerical artefact archive associated with the published `v1.0.0` validation is available as a GitHub Release asset:
+
+- **Results and artefacts:** https://github.com/kovariati/D-SCEOS/releases/download/v1.0.0/D-SCEOS-v1.0.0-results-and-artifacts.zip
+- **SHA-256 checksum:** https://github.com/kovariati/D-SCEOS/releases/download/v1.0.0/D-SCEOS-v1.0.0-results-and-artifacts.zip.sha256
+- **Release page:** https://github.com/kovariati/D-SCEOS/releases/tag/v1.0.0
+
+The archive contains the full trajectories and per-step metrics for the primary published runs together with seed-level Monte Carlo outputs, comparator results, sensitivity and ablation studies, topology and communication diagnostics, solver cross-checks, scalability results, a machine-readable manifest, and per-file SHA-256 checksums.
+
+Large generated trajectories are intentionally excluded from Git history. They can either be obtained from the archived `v1.0.0` Release asset or regenerated locally from the released code and experiment definitions.
+
+When these artefacts, the software, or the experimental protocol are used in scientific work, please cite the associated journal article:
+
+**Kovari, A. (2026).** *Swarm-inspired peer-to-peer control for resource-aware flexibility sharing in cyber–physical energy systems*. **Energy Conversion and Management: X, 31**, 102212. https://doi.org/10.1016/j.ecmx.2026.102212
 
 ## How to cite
 
