@@ -1,0 +1,70 @@
+{
+  "note": "N=60 ordering robustness to DPG retuning. Full documented step grid run on each N=60 scenario; the best-tested step is the grid minimiser (0.04 here, not 0.06). Main tables use the N15/A-best step 0.10, transferred. D-SCEOS is compared against the best-tested N=60 DPG per scenario.",
+  "dpg_grid_steps": [
+    0.02,
+    0.04,
+    0.06,
+    0.1,
+    0.2,
+    0.4,
+    0.72
+  ],
+  "target_multiplier": 4.0,
+  "results": [
+    {
+      "scenario": "A",
+      "J_T_dsceos": 2.3253,
+      "dpg_grid": {
+        "0.02": 3.2115,
+        "0.04": 2.836,
+        "0.06": 5.4842,
+        "0.1": 11.9826,
+        "0.2": 15.9888,
+        "0.4": 16.8259,
+        "0.72": 17.4613
+      },
+      "best_dpg_step": 0.04,
+      "best_dpg_J_T": 2.836,
+      "dsceos_lower": true,
+      "ratio_dpg_best": 1.22
+    },
+    {
+      "scenario": "B",
+      "J_T_dsceos": 1.2207,
+      "dpg_grid": {
+        "0.02": 1.2807,
+        "0.04": 1.2453,
+        "0.06": 4.0756,
+        "0.1": 15.5102,
+        "0.2": 43.3349,
+        "0.4": 54.3224,
+        "0.72": 56.2434
+      },
+      "best_dpg_step": 0.04,
+      "best_dpg_J_T": 1.2453,
+      "dsceos_lower": true,
+      "ratio_dpg_best": 1.02
+    },
+    {
+      "scenario": "C",
+      "J_T_dsceos": 7.3944,
+      "dpg_grid": {
+        "0.02": 11.7336,
+        "0.04": 10.6737,
+        "0.06": 13.1583,
+        "0.1": 22.6677,
+        "0.2": 36.6284,
+        "0.4": 43.6436,
+        "0.72": 44.6765
+      },
+      "best_dpg_step": 0.04,
+      "best_dpg_J_T": 10.6737,
+      "dsceos_lower": true,
+      "ratio_dpg_best": 1.443
+    }
+  ],
+  "dsceos_wins_all": true,
+  "best_steps": [
+    0.04
+  ]
+}

@@ -1,0 +1,351 @@
+{
+ "experiment": "C",
+ "cluster": "realistic_15",
+ "seeds": 10,
+ "grid": {
+  "w_bar_y": [
+   0.33,
+   0.67,
+   1.0,
+   1.5
+  ],
+  "lambda_s": [
+   0.05,
+   0.15,
+   0.3,
+   0.5
+  ]
+ },
+ "cells": [
+  {
+   "w_bar_y": 0.33,
+   "lambda_s": 0.05,
+   "D-SCEOS": {
+    "mean": 0.4134,
+    "ci95_low": 0.3839,
+    "ci95_high": 0.4429
+   },
+   "DPG-HOCBF": {
+    "mean": 0.446,
+    "ci95_low": 0.4163,
+    "ci95_high": 0.4757
+   },
+   "PD baseline": {
+    "mean": 1.4463,
+    "ci95_low": 1.2362,
+    "ci95_high": 1.6564
+   },
+   "dsceos_lowest": true
+  },
+  {
+   "w_bar_y": 0.33,
+   "lambda_s": 0.15,
+   "D-SCEOS": {
+    "mean": 0.4579,
+    "ci95_low": 0.4247,
+    "ci95_high": 0.4912
+   },
+   "DPG-HOCBF": {
+    "mean": 1.0032,
+    "ci95_low": 0.4475,
+    "ci95_high": 1.5588
+   },
+   "PD baseline": {
+    "mean": 3.782,
+    "ci95_low": 3.1373,
+    "ci95_high": 4.4266
+   },
+   "dsceos_lowest": true
+  },
+  {
+   "w_bar_y": 0.33,
+   "lambda_s": 0.3,
+   "D-SCEOS": {
+    "mean": 0.4898,
+    "ci95_low": 0.4532,
+    "ci95_high": 0.5264
+   },
+   "DPG-HOCBF": {
+    "mean": 3.6695,
+    "ci95_low": 2.4295,
+    "ci95_high": 4.9095
+   },
+   "PD baseline": {
+    "mean": 7.2855,
+    "ci95_low": 5.9886,
+    "ci95_high": 8.5824
+   },
+   "dsceos_lowest": true
+  },
+  {
+   "w_bar_y": 0.33,
+   "lambda_s": 0.5,
+   "D-SCEOS": {
+    "mean": 0.5218,
+    "ci95_low": 0.4786,
+    "ci95_high": 0.5649
+   },
+   "DPG-HOCBF": {
+    "mean": 6.3133,
+    "ci95_low": 4.4944,
+    "ci95_high": 8.1321
+   },
+   "PD baseline": {
+    "mean": 11.9569,
+    "ci95_low": 9.7903,
+    "ci95_high": 14.1236
+   },
+   "dsceos_lowest": true
+  },
+  {
+   "w_bar_y": 0.67,
+   "lambda_s": 0.05,
+   "D-SCEOS": {
+    "mean": 0.5349,
+    "ci95_low": 0.4812,
+    "ci95_high": 0.5886
+   },
+   "DPG-HOCBF": {
+    "mean": 0.6243,
+    "ci95_low": 0.5675,
+    "ci95_high": 0.6811
+   },
+   "PD baseline": {
+    "mean": 1.582,
+    "ci95_low": 1.3848,
+    "ci95_high": 1.7792
+   },
+   "dsceos_lowest": true
+  },
+  {
+   "w_bar_y": 0.67,
+   "lambda_s": 0.15,
+   "D-SCEOS": {
+    "mean": 0.6103,
+    "ci95_low": 0.5493,
+    "ci95_high": 0.6713
+   },
+   "DPG-HOCBF": {
+    "mean": 1.0533,
+    "ci95_low": 0.637,
+    "ci95_high": 1.4696
+   },
+   "PD baseline": {
+    "mean": 3.9177,
+    "ci95_low": 3.288,
+    "ci95_high": 4.5474
+   },
+   "dsceos_lowest": true
+  },
+  {
+   "w_bar_y": 0.67,
+   "lambda_s": 0.3,
+   "D-SCEOS": {
+    "mean": 0.6676,
+    "ci95_low": 0.6038,
+    "ci95_high": 0.7314
+   },
+   "DPG-HOCBF": {
+    "mean": 4.6761,
+    "ci95_low": 3.3752,
+    "ci95_high": 5.9771
+   },
+   "PD baseline": {
+    "mean": 7.4213,
+    "ci95_low": 6.1397,
+    "ci95_high": 8.7028
+   },
+   "dsceos_lowest": true
+  },
+  {
+   "w_bar_y": 0.67,
+   "lambda_s": 0.5,
+   "D-SCEOS": {
+    "mean": 0.7199,
+    "ci95_low": 0.653,
+    "ci95_high": 0.7867
+   },
+   "DPG-HOCBF": {
+    "mean": 7.7536,
+    "ci95_low": 5.9754,
+    "ci95_high": 9.5318
+   },
+   "PD baseline": {
+    "mean": 12.0927,
+    "ci95_low": 9.9415,
+    "ci95_high": 14.2438
+   },
+   "dsceos_lowest": true
+  },
+  {
+   "w_bar_y": 1.0,
+   "lambda_s": 0.05,
+   "D-SCEOS": {
+    "mean": 0.6146,
+    "ci95_low": 0.5396,
+    "ci95_high": 0.6896
+   },
+   "DPG-HOCBF": {
+    "mean": 0.7688,
+    "ci95_low": 0.6846,
+    "ci95_high": 0.853
+   },
+   "PD baseline": {
+    "mean": 1.7137,
+    "ci95_low": 1.5259,
+    "ci95_high": 1.9016
+   },
+   "dsceos_lowest": true
+  },
+  {
+   "w_bar_y": 1.0,
+   "lambda_s": 0.15,
+   "D-SCEOS": {
+    "mean": 0.7124,
+    "ci95_low": 0.6259,
+    "ci95_high": 0.7989
+   },
+   "DPG-HOCBF": {
+    "mean": 1.154,
+    "ci95_low": 0.8044,
+    "ci95_high": 1.5036
+   },
+   "PD baseline": {
+    "mean": 4.0494,
+    "ci95_low": 3.4333,
+    "ci95_high": 4.6656
+   },
+   "dsceos_lowest": true
+  },
+  {
+   "w_bar_y": 1.0,
+   "lambda_s": 0.3,
+   "D-SCEOS": {
+    "mean": 0.7913,
+    "ci95_low": 0.7008,
+    "ci95_high": 0.8817
+   },
+   "DPG-HOCBF": {
+    "mean": 5.3397,
+    "ci95_low": 3.8998,
+    "ci95_high": 6.7795
+   },
+   "PD baseline": {
+    "mean": 7.553,
+    "ci95_low": 6.286,
+    "ci95_high": 8.82
+   },
+   "dsceos_lowest": true
+  },
+  {
+   "w_bar_y": 1.0,
+   "lambda_s": 0.5,
+   "D-SCEOS": {
+    "mean": 0.8641,
+    "ci95_low": 0.7716,
+    "ci95_high": 0.9567
+   },
+   "DPG-HOCBF": {
+    "mean": 8.9345,
+    "ci95_low": 7.1559,
+    "ci95_high": 10.7131
+   },
+   "PD baseline": {
+    "mean": 12.2244,
+    "ci95_low": 10.0881,
+    "ci95_high": 14.3606
+   },
+   "dsceos_lowest": true
+  },
+  {
+   "w_bar_y": 1.5,
+   "lambda_s": 0.05,
+   "D-SCEOS": {
+    "mean": 0.7117,
+    "ci95_low": 0.6068,
+    "ci95_high": 0.8165
+   },
+   "DPG-HOCBF": {
+    "mean": 0.9718,
+    "ci95_low": 0.8452,
+    "ci95_high": 1.0984
+   },
+   "PD baseline": {
+    "mean": 1.9133,
+    "ci95_low": 1.7326,
+    "ci95_high": 2.0941
+   },
+   "dsceos_lowest": true
+  },
+  {
+   "w_bar_y": 1.5,
+   "lambda_s": 0.15,
+   "D-SCEOS": {
+    "mean": 0.8374,
+    "ci95_low": 0.7149,
+    "ci95_high": 0.9599
+   },
+   "DPG-HOCBF": {
+    "mean": 1.3902,
+    "ci95_low": 1.034,
+    "ci95_high": 1.7464
+   },
+   "PD baseline": {
+    "mean": 4.249,
+    "ci95_low": 3.6518,
+    "ci95_high": 4.8463
+   },
+   "dsceos_lowest": true
+  },
+  {
+   "w_bar_y": 1.5,
+   "lambda_s": 0.3,
+   "D-SCEOS": {
+    "mean": 0.9434,
+    "ci95_low": 0.8133,
+    "ci95_high": 1.0735
+   },
+   "DPG-HOCBF": {
+    "mean": 6.1554,
+    "ci95_low": 4.5024,
+    "ci95_high": 7.8083
+   },
+   "PD baseline": {
+    "mean": 7.7526,
+    "ci95_low": 6.5068,
+    "ci95_high": 8.9984
+   },
+   "dsceos_lowest": true
+  },
+  {
+   "w_bar_y": 1.5,
+   "lambda_s": 0.5,
+   "D-SCEOS": {
+    "mean": 1.042,
+    "ci95_low": 0.9098,
+    "ci95_high": 1.1742
+   },
+   "DPG-HOCBF": {
+    "mean": 10.4942,
+    "ci95_low": 8.6766,
+    "ci95_high": 12.3118
+   },
+   "PD baseline": {
+    "mean": 12.424,
+    "ci95_low": 10.3098,
+    "ci95_high": 14.5382
+   },
+   "dsceos_lowest": true
+  }
+ ],
+ "dsceos_lowest_cells": 16,
+ "n_cells": 16,
+ "environment": {
+  "python": "3.12.3",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "platform": "Linux-6.18.5-x86_64-with-glibc2.39",
+  "machine": "x86_64"
+ },
+ "wall_clock_s": 512.4
+}

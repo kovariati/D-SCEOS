@@ -1,0 +1,116 @@
+{
+  "convention_implemented": "J_k = J(p_{k+1}; y^T(t_k))  (left-target)",
+  "convention_aligned": "J_k = J(p_{k+1}; y^T(t_{k+1}))  (right-endpoint)",
+  "worst_abs_rel_diff_pct": 1.5285831954451334,
+  "note": "Scenario A has a constant request, so the two conventions coincide there. The comparison is a re-integration of stored trajectories; no simulation was re-run, and the controller trajectories themselves are identical under both readings.",
+  "per_run": {
+    "N15_a/D-SCEOS": {
+      "implemented_left_target": 0.4142155013593164,
+      "aligned_right_endpoint": 0.4142155013593164,
+      "abs_diff": 0.0,
+      "rel_diff_pct": 0.0
+    },
+    "N15_a/DPG-HOCBF": {
+      "implemented_left_target": 0.49140920354535456,
+      "aligned_right_endpoint": 0.49140920354535456,
+      "abs_diff": 0.0,
+      "rel_diff_pct": 0.0
+    },
+    "N15_a/PD baseline": {
+      "implemented_left_target": 1.494577072375949,
+      "aligned_right_endpoint": 1.494577072375949,
+      "abs_diff": 0.0,
+      "rel_diff_pct": 0.0
+    },
+    "N15_b/D-SCEOS": {
+      "implemented_left_target": 0.16530252736030468,
+      "aligned_right_endpoint": 0.16550924546245635,
+      "abs_diff": 0.00020671810215167064,
+      "rel_diff_pct": 0.1250544111168329
+    },
+    "N15_b/DPG-HOCBF": {
+      "implemented_left_target": 0.16691005847693105,
+      "aligned_right_endpoint": 0.16714954075933983,
+      "abs_diff": 0.00023948228240877611,
+      "rel_diff_pct": 0.14347983853943433
+    },
+    "N15_b/PD baseline": {
+      "implemented_left_target": 1.4191841244703243,
+      "aligned_right_endpoint": 1.4192995497604355,
+      "abs_diff": 0.00011542529011121516,
+      "rel_diff_pct": 0.008133214578784471
+    },
+    "N15_c/D-SCEOS": {
+      "implemented_left_target": 1.5399686931553536,
+      "aligned_right_endpoint": 1.5635083958140423,
+      "abs_diff": 0.023539702658688766,
+      "rel_diff_pct": 1.5285831954451334
+    },
+    "N15_c/DPG-HOCBF": {
+      "implemented_left_target": 2.1406656944053983,
+      "aligned_right_endpoint": 2.1639164951836425,
+      "abs_diff": 0.02325080077824415,
+      "rel_diff_pct": 1.0861481472333496
+    },
+    "N15_c/PD baseline": {
+      "implemented_left_target": 3.2285988533488457,
+      "aligned_right_endpoint": 3.253020079113208,
+      "abs_diff": 0.02442122576436212,
+      "rel_diff_pct": 0.7564032223771419
+    },
+    "N60_a/D-SCEOS": {
+      "implemented_left_target": 2.3252507996174656,
+      "aligned_right_endpoint": 2.3252507996174656,
+      "abs_diff": 0.0,
+      "rel_diff_pct": 0.0
+    },
+    "N60_a/DPG-HOCBF": {
+      "implemented_left_target": 11.982593954934067,
+      "aligned_right_endpoint": 11.982593954934067,
+      "abs_diff": 0.0,
+      "rel_diff_pct": 0.0
+    },
+    "N60_a/PD baseline": {
+      "implemented_left_target": 20.131572653535233,
+      "aligned_right_endpoint": 20.131572653535233,
+      "abs_diff": 0.0,
+      "rel_diff_pct": 0.0
+    },
+    "N60_b/D-SCEOS": {
+      "implemented_left_target": 1.220662692056115,
+      "aligned_right_endpoint": 1.2218722598889102,
+      "abs_diff": 0.0012095678327952442,
+      "rel_diff_pct": 0.09909107902346205
+    },
+    "N60_b/DPG-HOCBF": {
+      "implemented_left_target": 15.510195351903711,
+      "aligned_right_endpoint": 15.510055729681085,
+      "abs_diff": -0.00013962222262620116,
+      "rel_diff_pct": -0.0009001964157019081
+    },
+    "N60_b/PD baseline": {
+      "implemented_left_target": 29.326138731793982,
+      "aligned_right_endpoint": 29.32660636844936,
+      "abs_diff": 0.0004676366553795219,
+      "rel_diff_pct": 0.0015946069806746597
+    },
+    "N60_c/D-SCEOS": {
+      "implemented_left_target": 7.394431289740694,
+      "aligned_right_endpoint": 7.481894543666051,
+      "abs_diff": 0.0874632539253577,
+      "rel_diff_pct": 1.1828259740097584
+    },
+    "N60_c/DPG-HOCBF": {
+      "implemented_left_target": 22.667680894935565,
+      "aligned_right_endpoint": 22.71710958235404,
+      "abs_diff": 0.04942868741847661,
+      "rel_diff_pct": 0.21805798152699432
+    },
+    "N60_c/PD baseline": {
+      "implemented_left_target": 38.420758920182635,
+      "aligned_right_endpoint": 38.51838364298359,
+      "abs_diff": 0.09762472280095835,
+      "rel_diff_pct": 0.2540936867066297
+    }
+  }
+}

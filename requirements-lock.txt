@@ -1,0 +1,18 @@
+# Fully pinned environment for a cold reproduction of the published D-SCEOS v1.0.0 results (DOI: 10.1016/j.ecmx.2026.102212).
+#
+# This is the STRICT counterpart of requirements.txt: every version is exact, including the test and
+# lint tooling that requirements.txt leaves as a lower bound. The released numbers were produced on
+# Python 3.11/3.12 with this stack; the sandbox verification run used Python 3.12.3.
+#
+#   python -m venv .venv
+#   .venv/bin/pip install -r requirements-lock.txt      (Windows: .venv\Scripts\pip)
+#
+# Python: 3.11 or 3.12 (3.13 is untested against these pins)
+
+numpy==2.4.4
+scipy==1.17.1
+pandas==3.0.2
+matplotlib==3.10.8
+pytest==9.1.1
+pyflakes==3.4.0
+cvxpy==1.9.2

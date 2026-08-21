@@ -1,0 +1,59 @@
+[
+  {
+    "scenario": "scenario_a_winter_morning_step",
+    "source": "Public-release figure synchronization manifest derived from the released N15 technology_representative_summary.json summaries; publication figure image files are not stored in this code repository.",
+    "final_cumulative_JT": {
+      "dsceos": 0.41421550135931695,
+      "projected_gradient_hocbf": 0.4914092035453555,
+      "independent_tracking": 1.4945770723759493
+    },
+    "final_control_energy": {
+      "dsceos": 0.7913435905867807,
+      "projected_gradient_hocbf": 0.7611191773746087,
+      "independent_tracking": 0.3846791764837781
+    },
+    "final_tracking_error": {
+      "dsceos": 0.01089428051772721,
+      "projected_gradient_hocbf": 0.010199585602789529,
+      "independent_tracking": 0.011117482154659224
+    }
+  },
+  {
+    "scenario": "scenario_b_wind_ramp_down_event",
+    "source": "Public-release figure synchronization manifest derived from the released N15 technology_representative_summary.json summaries; publication figure image files are not stored in this code repository.",
+    "final_cumulative_JT": {
+      "dsceos": 0.16530252736030476,
+      "projected_gradient_hocbf": 0.16691005847693074,
+      "independent_tracking": 1.4191841244703238
+    },
+    "final_control_energy": {
+      "dsceos": 0.027361849767976294,
+      "projected_gradient_hocbf": 0.028334860561883484,
+      "independent_tracking": 0.0072013387517590125
+    },
+    "final_tracking_error": {
+      "dsceos": 0.006082291003247753,
+      "projected_gradient_hocbf": 0.006054341912194547,
+      "independent_tracking": 1.1284273868095163e-07
+    }
+  },
+  {
+    "scenario": "scenario_c_winter_balancing_mfrr",
+    "source": "Public-release figure synchronization manifest derived from the released N15 technology_representative_summary.json summaries; publication figure image files are not stored in this code repository.",
+    "final_cumulative_JT": {
+      "dsceos": 1.539968693155352,
+      "projected_gradient_hocbf": 2.1406656944053988,
+      "independent_tracking": 3.228598853348838
+    },
+    "final_control_energy": {
+      "dsceos": 4.36283134293537,
+      "projected_gradient_hocbf": 3.892230588902404,
+      "independent_tracking": 2.253042988566101
+    },
+    "final_tracking_error": {
+      "dsceos": 0.006403148761105584,
+      "projected_gradient_hocbf": 0.006097690106650355,
+      "independent_tracking": 6.857158702255549e-08
+    }
+  }
+]

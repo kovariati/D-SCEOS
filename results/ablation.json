@@ -1,0 +1,239 @@
+{
+  "N15_a": {
+    "full": {
+      "full_J_T": 0.41421550135931695,
+      "reported_J_T": 0.41421550135931695,
+      "final_aggregate_error": 0.01089428051772721,
+      "max_capacity_violation": 0.0,
+      "mean_qp_success": 0.9983333333333333,
+      "fallback_rate": 0.0016666666666667052,
+      "mean_clf_slack": 0.0028159468485710747,
+      "total_control_energy": 0.7913435905867807,
+      "wall_s": 3.6
+    },
+    "no_N_scaling": {
+      "full_J_T": 1.6733039319258507,
+      "reported_J_T": 0.12601262788268866,
+      "final_aggregate_error": 0.08634745195631094,
+      "max_capacity_violation": 0.0,
+      "mean_qp_success": 1.0,
+      "fallback_rate": 0.0,
+      "mean_clf_slack": 3.094439795170133e-07,
+      "total_control_energy": 0.047102807426362706,
+      "wall_s": 5.6
+    },
+    "no_sharing": {
+      "full_J_T": 1.862707309293805,
+      "reported_J_T": 0.31371710512377815,
+      "final_aggregate_error": 0.007483007533536318,
+      "max_capacity_violation": 0.0,
+      "mean_qp_success": 1.0,
+      "fallback_rate": 0.0,
+      "mean_clf_slack": 0.002059333061103481,
+      "total_control_energy": 0.5975877277336002,
+      "wall_s": 5.5
+    },
+    "no_internal": {
+      "full_J_T": 0.4140235444750559,
+      "reported_J_T": 0.3744605448587448,
+      "final_aggregate_error": 0.008533030209730045,
+      "max_capacity_violation": 0.0,
+      "mean_qp_success": 0.9979999999999999,
+      "fallback_rate": 0.002000000000000113,
+      "mean_clf_slack": 0.002778158261567544,
+      "total_control_energy": 0.8230524859733046,
+      "wall_s": 5.3
+    },
+    "perfect_estimate": {
+      "full_J_T": 0.41011137516612095,
+      "reported_J_T": 0.41011137516612095,
+      "final_aggregate_error": 0.010714676368971233,
+      "max_capacity_violation": 0.0,
+      "mean_qp_success": 0.9981111111111112,
+      "fallback_rate": 0.0018888888888888289,
+      "mean_clf_slack": 0.0025495228756299126,
+      "total_control_energy": 0.8194054042395279,
+      "wall_s": 5.4
+    },
+    "direct_broadcast": {
+      "full_J_T": 0.3765949535991238,
+      "reported_J_T": 0.3765949535991238,
+      "final_aggregate_error": 0.01090589208826266,
+      "max_capacity_violation": 0.0,
+      "mean_qp_success": 0.9984444444444444,
+      "fallback_rate": 0.0015555555555556433,
+      "mean_clf_slack": 0.002969443539207733,
+      "total_control_energy": 1.0056789868403742,
+      "wall_s": 6.1
+    },
+    "hocbf_only": {
+      "full_J_T": 0.41437070059758013,
+      "reported_J_T": 0.41437070059758013,
+      "final_aggregate_error": 0.0108947283722354,
+      "max_capacity_violation": 0.0,
+      "mean_qp_success": NaN,
+      "fallback_rate": NaN,
+      "mean_clf_slack": NaN,
+      "total_control_energy": 0.7917975913651729,
+      "wall_s": 0.9
+    }
+  },
+  "N60_a": {
+    "full": {
+      "full_J_T": 2.3252507996174647,
+      "reported_J_T": 2.3252507996174647,
+      "final_aggregate_error": 0.019183493151272622,
+      "max_capacity_violation": 0.0,
+      "mean_qp_success": 0.9976944444444444,
+      "fallback_rate": 0.0023055555555555607,
+      "mean_clf_slack": 0.005356336376990856,
+      "total_control_energy": 2.589785119794716,
+      "wall_s": 19.9
+    },
+    "no_N_scaling": {
+      "full_J_T": 9.805292314667263,
+      "reported_J_T": 0.16931841307717532,
+      "final_aggregate_error": 0.12383680978673126,
+      "max_capacity_violation": 0.0,
+      "mean_qp_success": 1.0,
+      "fallback_rate": 0.0,
+      "mean_clf_slack": 2.319432324696808e-08,
+      "total_control_energy": 0.009868115706933956,
+      "wall_s": 19.3
+    },
+    "no_sharing": {
+      "full_J_T": 21.08580880755996,
+      "reported_J_T": 1.3881532374310386,
+      "final_aggregate_error": 0.009956336820468576,
+      "max_capacity_violation": 0.0,
+      "mean_qp_success": 1.0,
+      "fallback_rate": 0.0,
+      "mean_clf_slack": 0.0023086562929220023,
+      "total_control_energy": 2.132908337682992,
+      "wall_s": 19.9
+    },
+    "no_internal": {
+      "full_J_T": 2.3939701178063033,
+      "reported_J_T": 1.6529461141337354,
+      "final_aggregate_error": 0.008380368663763377,
+      "max_capacity_violation": 0.0,
+      "mean_qp_success": 0.9981944444444446,
+      "fallback_rate": 0.0018055555555553937,
+      "mean_clf_slack": 0.005477682115560999,
+      "total_control_energy": 3.096423541584852,
+      "wall_s": 19.6
+    },
+    "perfect_estimate": {
+      "full_J_T": 2.316332755627634,
+      "reported_J_T": 2.316332755627634,
+      "final_aggregate_error": 0.01901687585092903,
+      "max_capacity_violation": 0.0,
+      "mean_qp_success": 0.9975833333333333,
+      "fallback_rate": 0.0024166666666667336,
+      "mean_clf_slack": 0.0048769082568658785,
+      "total_control_energy": 2.6699010717843445,
+      "wall_s": 18.9
+    },
+    "direct_broadcast": {
+      "full_J_T": 2.172393526902725,
+      "reported_J_T": 2.172393526902725,
+      "final_aggregate_error": 0.019200020170889558,
+      "max_capacity_violation": 0.0,
+      "mean_qp_success": 0.997611111111111,
+      "fallback_rate": 0.002388888888888996,
+      "mean_clf_slack": 0.006923414511672473,
+      "total_control_energy": 3.508340626499611,
+      "wall_s": 19.3
+    },
+    "hocbf_only": {
+      "full_J_T": 2.3256497208676343,
+      "reported_J_T": 2.3256497208676343,
+      "final_aggregate_error": 0.0191835410832559,
+      "max_capacity_violation": 0.0,
+      "mean_qp_success": NaN,
+      "fallback_rate": NaN,
+      "mean_clf_slack": NaN,
+      "total_control_energy": 2.5894310300384307,
+      "wall_s": 2.1
+    }
+  },
+  "N60_c": {
+    "full": {
+      "full_J_T": 7.394431289740692,
+      "reported_J_T": 7.394431289740692,
+      "final_aggregate_error": 0.011494642559124949,
+      "max_capacity_violation": 0.0,
+      "mean_qp_success": 0.9914814814814814,
+      "fallback_rate": 0.008518518518518592,
+      "mean_clf_slack": 0.01696243818661745,
+      "total_control_energy": 13.704747312930275,
+      "wall_s": 59.9
+    },
+    "no_N_scaling": {
+      "full_J_T": 14.507348641476984,
+      "reported_J_T": 0.2478766888454124,
+      "final_aggregate_error": 0.07417495783123491,
+      "max_capacity_violation": 0.0,
+      "mean_qp_success": 1.0,
+      "fallback_rate": 0.0,
+      "mean_clf_slack": 2.803940728837441e-08,
+      "total_control_energy": 0.03583472316732163,
+      "wall_s": 56.0
+    },
+    "no_sharing": {
+      "full_J_T": 43.10695189623385,
+      "reported_J_T": 5.115103076565115,
+      "final_aggregate_error": 0.004879477692157856,
+      "max_capacity_violation": 0.0,
+      "mean_qp_success": 0.9994166666666667,
+      "fallback_rate": 0.0005833333333332691,
+      "mean_clf_slack": 0.005125023081820556,
+      "total_control_energy": 12.650458647422415,
+      "wall_s": 59.6
+    },
+    "no_internal": {
+      "full_J_T": 8.107753112238191,
+      "reported_J_T": 7.150138348573923,
+      "final_aggregate_error": 0.004968296522483432,
+      "max_capacity_violation": 0.0,
+      "mean_qp_success": 0.9931111111111111,
+      "fallback_rate": 0.006888888888888944,
+      "mean_clf_slack": 0.015085336852546215,
+      "total_control_energy": 15.377105743564384,
+      "wall_s": 57.5
+    },
+    "perfect_estimate": {
+      "full_J_T": 7.428162605236162,
+      "reported_J_T": 7.428162605236162,
+      "final_aggregate_error": 0.011387539840085541,
+      "max_capacity_violation": 0.0,
+      "mean_qp_success": 0.9916481481481482,
+      "fallback_rate": 0.008351851851851833,
+      "mean_clf_slack": 0.015719768310349557,
+      "total_control_energy": 14.24666583051653,
+      "wall_s": 58.8
+    },
+    "direct_broadcast": {
+      "full_J_T": 6.32948549775884,
+      "reported_J_T": 6.32948549775884,
+      "final_aggregate_error": 0.011506886739238806,
+      "max_capacity_violation": 0.0,
+      "mean_qp_success": 0.9896111111111112,
+      "fallback_rate": 0.010388888888888781,
+      "mean_clf_slack": 0.018927428645637047,
+      "total_control_energy": 17.935524602248524,
+      "wall_s": 58.5
+    },
+    "hocbf_only": {
+      "full_J_T": 7.400269261214465,
+      "reported_J_T": 7.400269261214465,
+      "final_aggregate_error": 0.011494681222335938,
+      "max_capacity_violation": 0.0,
+      "mean_qp_success": NaN,
+      "fallback_rate": NaN,
+      "mean_clf_slack": NaN,
+      "total_control_energy": 13.694329633007124,
+      "wall_s": 5.9
+    }
+  }
+}

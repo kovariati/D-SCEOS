@@ -1,0 +1,25 @@
+# Generated simulation output. run_all.py recreates everything here.
+# Only the small JSON/CSV summaries are tracked (see the negations below).
+results/*
+!results/*.json
+!results/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Figure artefacts produced by the generators
+*.png
+*.pdf
+*.gif
+*.mp4
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

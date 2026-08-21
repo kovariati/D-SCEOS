@@ -1,0 +1,106 @@
+[
+  {
+    "kind": "fraction",
+    "scenario": "A",
+    "gw_fraction": 0.07,
+    "n_gateways": 2,
+    "J_T": 0.4660961279074334,
+    "agg_err": 0.01081712721647562,
+    "cap_viol": 0.0
+  },
+  {
+    "kind": "fraction",
+    "scenario": "A",
+    "gw_fraction": 0.15,
+    "n_gateways": 3,
+    "J_T": 0.41421550135931695,
+    "agg_err": 0.01089428051772721,
+    "cap_viol": 0.0
+  },
+  {
+    "kind": "fraction",
+    "scenario": "A",
+    "gw_fraction": 0.3,
+    "n_gateways": 5,
+    "J_T": 0.39555845416517443,
+    "agg_err": 0.010904891742721698,
+    "cap_viol": 0.0
+  },
+  {
+    "kind": "fraction",
+    "scenario": "A",
+    "gw_fraction": 0.5,
+    "n_gateways": 8,
+    "J_T": 0.386852943506685,
+    "agg_err": 0.010897553254938148,
+    "cap_viol": 0.0
+  },
+  {
+    "kind": "fraction",
+    "scenario": "A",
+    "gw_fraction": 1.0,
+    "n_gateways": 15,
+    "J_T": 0.3765949535991238,
+    "agg_err": 0.01090589208826266,
+    "cap_viol": 0.0
+  },
+  {
+    "kind": "fraction",
+    "scenario": "B",
+    "gw_fraction": 0.07,
+    "n_gateways": 2,
+    "J_T": 0.1665893969538349,
+    "agg_err": 0.0060711451974478775,
+    "cap_viol": 0.0
+  },
+  {
+    "kind": "fraction",
+    "scenario": "B",
+    "gw_fraction": 0.15,
+    "n_gateways": 3,
+    "J_T": 0.16530252736030476,
+    "agg_err": 0.006082291003247753,
+    "cap_viol": 0.0
+  },
+  {
+    "kind": "fraction",
+    "scenario": "B",
+    "gw_fraction": 0.3,
+    "n_gateways": 5,
+    "J_T": 0.165004547831523,
+    "agg_err": 0.006084715523355835,
+    "cap_viol": 0.0
+  },
+  {
+    "kind": "fraction",
+    "scenario": "B",
+    "gw_fraction": 0.5,
+    "n_gateways": 8,
+    "J_T": 0.16473636597873417,
+    "agg_err": 0.006083512684537967,
+    "cap_viol": 0.0
+  },
+  {
+    "kind": "fraction",
+    "scenario": "B",
+    "gw_fraction": 1.0,
+    "n_gateways": 15,
+    "J_T": 0.16466820924938141,
+    "agg_err": 0.00608545749417512,
+    "cap_viol": 0.0
+  },
+  {
+    "kind": "placement",
+    "placement": "spread(default)",
+    "J_T": 0.41421550135931695,
+    "agg_err": 0.01089428051772721,
+    "cap_viol": 0.0
+  },
+  {
+    "kind": "placement",
+    "placement": "clustered",
+    "J_T": 0.4233570488762876,
+    "agg_err": 0.01086734782691206,
+    "cap_viol": 0.0
+  }
+]

@@ -1,0 +1,334 @@
+{
+  "n_bootstrap": 20000,
+  "rng_seed": 20260728,
+  "comparisons": [
+    {
+      "campaign": "A_N15",
+      "scenario": "A",
+      "comparator": "independent_tracking",
+      "n_seeds": 30,
+      "mean_diff": 3.3903874370895846,
+      "t_ci": [
+        3.1001164559490784,
+        3.6806584182300908
+      ],
+      "boot_ci": [
+        3.1200453471629177,
+        3.6699732688208804
+      ],
+      "sign_p": 1.862645149230957e-09,
+      "win_rate": 1.0,
+      "holm_significant": true
+    },
+    {
+      "campaign": "A_N15",
+      "scenario": "A",
+      "comparator": "projected_gradient_hocbf",
+      "n_seeds": 30,
+      "mean_diff": 1.0870046378924194,
+      "t_ci": [
+        0.691832879296155,
+        1.4821763964886838
+      ],
+      "boot_ci": [
+        0.7168145507971044,
+        1.467037939320402
+      ],
+      "sign_p": 1.862645149230957e-09,
+      "win_rate": 1.0,
+      "holm_significant": true
+    },
+    {
+      "campaign": "A_N15",
+      "scenario": "B",
+      "comparator": "independent_tracking",
+      "n_seeds": 30,
+      "mean_diff": 5.564602421640027,
+      "t_ci": [
+        5.095292925459998,
+        6.033911917820055
+      ],
+      "boot_ci": [
+        5.10641825760588,
+        6.000939068917146
+      ],
+      "sign_p": 1.862645149230957e-09,
+      "win_rate": 1.0,
+      "holm_significant": true
+    },
+    {
+      "campaign": "A_N15",
+      "scenario": "B",
+      "comparator": "projected_gradient_hocbf",
+      "n_seeds": 30,
+      "mean_diff": 1.813446500275713,
+      "t_ci": [
+        1.2609590438627811,
+        2.365933956688645
+      ],
+      "boot_ci": [
+        1.3086826728552383,
+        2.353379643929904
+      ],
+      "sign_p": 1.862645149230957e-09,
+      "win_rate": 1.0,
+      "holm_significant": true
+    },
+    {
+      "campaign": "A_N15",
+      "scenario": "C",
+      "comparator": "independent_tracking",
+      "n_seeds": 30,
+      "mean_diff": 5.922539492317156,
+      "t_ci": [
+        5.435154064491039,
+        6.409924920143274
+      ],
+      "boot_ci": [
+        5.442563288310233,
+        6.370722126004437
+      ],
+      "sign_p": 1.862645149230957e-09,
+      "win_rate": 1.0,
+      "holm_significant": true
+    },
+    {
+      "campaign": "A_N15",
+      "scenario": "C",
+      "comparator": "projected_gradient_hocbf",
+      "n_seeds": 30,
+      "mean_diff": 1.9992381165646536,
+      "t_ci": [
+        1.5057059812574773,
+        2.4927702518718298
+      ],
+      "boot_ci": [
+        1.5369102316922294,
+        2.4737230984462757
+      ],
+      "sign_p": 1.862645149230957e-09,
+      "win_rate": 1.0,
+      "holm_significant": true
+    },
+    {
+      "campaign": "B_N15",
+      "scenario": "A",
+      "comparator": "independent_tracking",
+      "n_seeds": 30,
+      "mean_diff": 3.3097015097562896,
+      "t_ci": [
+        3.0225233160206737,
+        3.5968797034919056
+      ],
+      "boot_ci": [
+        3.0435140403294776,
+        3.5872966185554276
+      ],
+      "sign_p": 1.862645149230957e-09,
+      "win_rate": 1.0,
+      "holm_significant": true
+    },
+    {
+      "campaign": "B_N15",
+      "scenario": "A",
+      "comparator": "projected_gradient_hocbf",
+      "n_seeds": 30,
+      "mean_diff": 1.0063187105591254,
+      "t_ci": [
+        0.6116810178802432,
+        1.4009564032380075
+      ],
+      "boot_ci": [
+        0.6377221035582852,
+        1.3874905110345643
+      ],
+      "sign_p": 8.430331945419312e-06,
+      "win_rate": 0.9,
+      "holm_significant": true
+    },
+    {
+      "campaign": "B_N15",
+      "scenario": "B",
+      "comparator": "independent_tracking",
+      "n_seeds": 30,
+      "mean_diff": 5.163369843604826,
+      "t_ci": [
+        4.635270052306243,
+        5.6914696349034095
+      ],
+      "boot_ci": [
+        4.642396363486414,
+        5.650180873004105
+      ],
+      "sign_p": 1.862645149230957e-09,
+      "win_rate": 1.0,
+      "holm_significant": true
+    },
+    {
+      "campaign": "B_N15",
+      "scenario": "B",
+      "comparator": "projected_gradient_hocbf",
+      "n_seeds": 30,
+      "mean_diff": 1.4122139222405141,
+      "t_ci": [
+        0.8225233947861843,
+        2.0019044496948437
+      ],
+      "boot_ci": [
+        0.870571027772043,
+        1.9890060348420397
+      ],
+      "sign_p": 0.001430906355381012,
+      "win_rate": 0.8,
+      "holm_significant": true
+    },
+    {
+      "campaign": "B_N15",
+      "scenario": "C",
+      "comparator": "independent_tracking",
+      "n_seeds": 30,
+      "mean_diff": 5.422552793842619,
+      "t_ci": [
+        4.931802856326022,
+        5.913302731359216
+      ],
+      "boot_ci": [
+        4.939649810033359,
+        5.872710593935044
+      ],
+      "sign_p": 1.862645149230957e-09,
+      "win_rate": 1.0,
+      "holm_significant": true
+    },
+    {
+      "campaign": "B_N15",
+      "scenario": "C",
+      "comparator": "projected_gradient_hocbf",
+      "n_seeds": 30,
+      "mean_diff": 1.4992514180901169,
+      "t_ci": [
+        1.0071129431349481,
+        1.9913898930452856
+      ],
+      "boot_ci": [
+        1.0386039510841503,
+        1.9708557521850048
+      ],
+      "sign_p": 8.67992639541626e-07,
+      "win_rate": 0.9333333333333333,
+      "holm_significant": true
+    },
+    {
+      "campaign": "A_N60",
+      "scenario": "A",
+      "comparator": "independent_tracking",
+      "n_seeds": 30,
+      "mean_diff": 17.58438371737015,
+      "t_ci": [
+        17.1061358845772,
+        18.062631550163104
+      ],
+      "boot_ci": [
+        17.1468305956675,
+        18.041512795171023
+      ],
+      "sign_p": 1.862645149230957e-09,
+      "win_rate": 1.0,
+      "holm_significant": true
+    },
+    {
+      "campaign": "A_N60",
+      "scenario": "A",
+      "comparator": "projected_gradient_hocbf",
+      "n_seeds": 30,
+      "mean_diff": 11.09616838089306,
+      "t_ci": [
+        10.437716597992566,
+        11.754620163793554
+      ],
+      "boot_ci": [
+        10.48659024279263,
+        11.734825146066704
+      ],
+      "sign_p": 1.862645149230957e-09,
+      "win_rate": 1.0,
+      "holm_significant": true
+    },
+    {
+      "campaign": "A_N60",
+      "scenario": "B",
+      "comparator": "independent_tracking",
+      "n_seeds": 30,
+      "mean_diff": 29.47036660551859,
+      "t_ci": [
+        28.51631694142099,
+        30.424416269616188
+      ],
+      "boot_ci": [
+        28.595590278325954,
+        30.390155828133835
+      ],
+      "sign_p": 1.862645149230957e-09,
+      "win_rate": 1.0,
+      "holm_significant": true
+    },
+    {
+      "campaign": "A_N60",
+      "scenario": "B",
+      "comparator": "projected_gradient_hocbf",
+      "n_seeds": 30,
+      "mean_diff": 23.459132872824746,
+      "t_ci": [
+        21.18242834672781,
+        25.73583739892168
+      ],
+      "boot_ci": [
+        21.46756970582201,
+        25.770498801299006
+      ],
+      "sign_p": 1.862645149230957e-09,
+      "win_rate": 1.0,
+      "holm_significant": true
+    },
+    {
+      "campaign": "A_N60",
+      "scenario": "C",
+      "comparator": "independent_tracking",
+      "n_seeds": 30,
+      "mean_diff": 31.28096775476131,
+      "t_ci": [
+        30.42332276998547,
+        32.138612739537145
+      ],
+      "boot_ci": [
+        30.494503962007006,
+        32.1216597374637
+      ],
+      "sign_p": 1.862645149230957e-09,
+      "win_rate": 1.0,
+      "holm_significant": true
+    },
+    {
+      "campaign": "A_N60",
+      "scenario": "C",
+      "comparator": "projected_gradient_hocbf",
+      "n_seeds": 30,
+      "mean_diff": 19.850892420827005,
+      "t_ci": [
+        18.45795568013821,
+        21.2438291615158
+      ],
+      "boot_ci": [
+        18.601880431101357,
+        21.22190887130094
+      ],
+      "sign_p": 1.862645149230957e-09,
+      "win_rate": 1.0,
+      "holm_significant": true
+    }
+  ],
+  "n_t_ci_positive": 18,
+  "n_bootstrap_ci_positive": 18,
+  "n_holm_significant": 18,
+  "_provenance": "Uniform: the N=60 campaign was regenerated with the current code, so all campaigns entering this family share one code version."
+}

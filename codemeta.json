@@ -1,0 +1,76 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "D-SCEOS",
+  "alternateName": "D-SCEOS published-article reproduction code",
+  "description": "Official code and reproducibility package for D-SCEOS, a gateway-injected peer-to-peer control framework for resource-aware flexibility sharing in cyber-physical energy systems. It implements the controller, CLF/HOCBF-QCQP operating-envelope handling, design-matched comparators, simulation scenarios, Monte Carlo and sensitivity analyses, and independent solver cross-checks reported in the associated Energy Conversion and Management: X article.",
+  "version": "1.0.0",
+  "codeRepository": "https://github.com/kovariati/D-SCEOS",
+  "url": "https://github.com/kovariati/D-SCEOS",
+  "downloadUrl": "https://github.com/kovariati/D-SCEOS/archive/refs/tags/v1.0.0.zip",
+  "issueTracker": "https://github.com/kovariati/D-SCEOS/issues",
+  "readme": "https://github.com/kovariati/D-SCEOS/blob/main/README.md",
+  "license": "https://spdx.org/licenses/MIT",
+  "author": {
+    "@type": "Person",
+    "givenName": "Attila",
+    "familyName": "Kovari"
+  },
+  "maintainer": {
+    "@type": "Person",
+    "givenName": "Attila",
+    "familyName": "Kovari"
+  },
+  "programmingLanguage": "Python",
+  "runtimePlatform": "Python 3.11 or 3.12",
+  "keywords": [
+    "cyber-physical energy systems",
+    "distributed control",
+    "peer-to-peer control",
+    "decentralized control",
+    "flexibility",
+    "smart grids",
+    "energy storage",
+    "distributed energy resources",
+    "virtual power plant",
+    "multi-agent systems",
+    "swarm-inspired control",
+    "swarm intelligence",
+    "resource-aware control",
+    "capacity-normalized flexibility sharing",
+    "dynamic average consensus",
+    "distributed optimization",
+    "control barrier functions",
+    "high-order control barrier functions",
+    "control Lyapunov functions",
+    "safe control",
+    "reproducibility"
+  ],
+  "referencePublication": "https://doi.org/10.1016/j.ecmx.2026.102212",
+  "citation": {
+    "@type": "ScholarlyArticle",
+    "headline": "Swarm-inspired peer-to-peer control for resource-aware flexibility sharing in cyber–physical energy systems",
+    "author": {
+      "@type": "Person",
+      "givenName": "Attila",
+      "familyName": "Kovari"
+    },
+    "datePublished": "2026-08-18",
+    "identifier": "https://doi.org/10.1016/j.ecmx.2026.102212",
+    "url": "https://doi.org/10.1016/j.ecmx.2026.102212",
+    "pagination": "102212",
+    "isPartOf": {
+      "@type": "PublicationVolume",
+      "volumeNumber": "31",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "Energy Conversion and Management: X",
+        "issn": "2590-1745"
+      }
+    }
+  },
+  "relatedLink": [
+    "https://doi.org/10.1016/j.ecmx.2026.102212",
+    "https://www.sciencedirect.com/science/article/pii/S2590174526006951"
+  ]
+}

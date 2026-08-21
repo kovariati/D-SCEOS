@@ -1,0 +1,120 @@
+{
+  "method": "continuous plant re-integrated with the recorded held inputs on a dense sub-grid; controls are replayed, not recomputed",
+  "sub_steps": 50,
+  "resolution_sweep_worst_case": {
+    "10": 0.0,
+    "50": 0.0
+  },
+  "worst_case_run": "N15_a/D-SCEOS",
+  "max_intersample_violation_overall": 0.0,
+  "per_run": {
+    "N15_a/D-SCEOS": {
+      "max_sampled_point_violation": 0.0,
+      "max_intersample_violation": 0.0,
+      "worst_at_interval_fraction": 0.0,
+      "sub_steps": 50
+    },
+    "N15_a/DPG-HOCBF": {
+      "max_sampled_point_violation": 0.0,
+      "max_intersample_violation": 0.0,
+      "worst_at_interval_fraction": 0.0,
+      "sub_steps": 50
+    },
+    "N15_a/PD baseline": {
+      "max_sampled_point_violation": 0.0,
+      "max_intersample_violation": 0.0,
+      "worst_at_interval_fraction": 0.0,
+      "sub_steps": 50
+    },
+    "N15_b/D-SCEOS": {
+      "max_sampled_point_violation": 0.0,
+      "max_intersample_violation": 0.0,
+      "worst_at_interval_fraction": 0.0,
+      "sub_steps": 50
+    },
+    "N15_b/DPG-HOCBF": {
+      "max_sampled_point_violation": 0.0,
+      "max_intersample_violation": 0.0,
+      "worst_at_interval_fraction": 0.0,
+      "sub_steps": 50
+    },
+    "N15_b/PD baseline": {
+      "max_sampled_point_violation": 0.0,
+      "max_intersample_violation": 0.0,
+      "worst_at_interval_fraction": 0.0,
+      "sub_steps": 50
+    },
+    "N15_c/D-SCEOS": {
+      "max_sampled_point_violation": 0.0,
+      "max_intersample_violation": 0.0,
+      "worst_at_interval_fraction": 0.0,
+      "sub_steps": 50
+    },
+    "N15_c/DPG-HOCBF": {
+      "max_sampled_point_violation": 0.0,
+      "max_intersample_violation": 0.0,
+      "worst_at_interval_fraction": 0.0,
+      "sub_steps": 50
+    },
+    "N15_c/PD baseline": {
+      "max_sampled_point_violation": 0.0,
+      "max_intersample_violation": 0.0,
+      "worst_at_interval_fraction": 0.0,
+      "sub_steps": 50
+    },
+    "N60_a/D-SCEOS": {
+      "max_sampled_point_violation": 0.0,
+      "max_intersample_violation": 0.0,
+      "worst_at_interval_fraction": 0.0,
+      "sub_steps": 50
+    },
+    "N60_a/DPG-HOCBF": {
+      "max_sampled_point_violation": 0.0,
+      "max_intersample_violation": 0.0,
+      "worst_at_interval_fraction": 0.0,
+      "sub_steps": 50
+    },
+    "N60_a/PD baseline": {
+      "max_sampled_point_violation": 0.0,
+      "max_intersample_violation": 0.0,
+      "worst_at_interval_fraction": 0.0,
+      "sub_steps": 50
+    },
+    "N60_b/D-SCEOS": {
+      "max_sampled_point_violation": 0.0,
+      "max_intersample_violation": 0.0,
+      "worst_at_interval_fraction": 0.0,
+      "sub_steps": 50
+    },
+    "N60_b/DPG-HOCBF": {
+      "max_sampled_point_violation": 0.0,
+      "max_intersample_violation": 0.0,
+      "worst_at_interval_fraction": 0.0,
+      "sub_steps": 50
+    },
+    "N60_b/PD baseline": {
+      "max_sampled_point_violation": 0.0,
+      "max_intersample_violation": 0.0,
+      "worst_at_interval_fraction": 0.0,
+      "sub_steps": 50
+    },
+    "N60_c/D-SCEOS": {
+      "max_sampled_point_violation": 0.0,
+      "max_intersample_violation": 0.0,
+      "worst_at_interval_fraction": 0.0,
+      "sub_steps": 50
+    },
+    "N60_c/DPG-HOCBF": {
+      "max_sampled_point_violation": 0.0,
+      "max_intersample_violation": 0.0,
+      "worst_at_interval_fraction": 0.0,
+      "sub_steps": 50
+    },
+    "N60_c/PD baseline": {
+      "max_sampled_point_violation": 0.0,
+      "max_intersample_violation": 0.0,
+      "worst_at_interval_fraction": 0.0,
+      "sub_steps": 50
+    }
+  }
+}

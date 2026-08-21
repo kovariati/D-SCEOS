@@ -1,0 +1,18 @@
+# Working dependency set for the published D-SCEOS v1.0.0 reproduction (DOI: 10.1016/j.ecmx.2026.102212).
+numpy==2.4.4
+scipy==1.17.1
+cvxpy==1.9.2  # independent CLARABEL QCQP/SOCP solver for the fallback/QCQP cross-check (reruns/qcqp_crosscheck.py)
+matplotlib==3.10.8
+pandas==3.0.2
+
+# MANDATORY static name-resolution cross-check (F821 undefined name / F823 use before assignment).
+# test_source_hygiene.py runs its own analyser AND pyflakes as an independent second opinion; if
+# pyflakes is missing the test FAILS rather than skipping, so this is a required dependency, not an
+# optional one. This file is the single dependency policy for the package.
+pyflakes==3.4.0
+
+# Test runner for the full suite (python -m pytest -q). With this pinned environment installed, the
+# complete suite passes; the only way to see a pyflakes-related failure is to run without installing
+# these pinned dependencies (see the note above). Re-pin to the release machine's pytest if it differs;
+# the suite does not depend on pytest-version-specific behaviour.
+pytest>=8.0

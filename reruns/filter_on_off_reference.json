@@ -1,0 +1,38 @@
+[
+ {
+  "controller": "dsceos",
+  "filter": true,
+  "J_T": 0.4142,
+  "cap_viol": 0.0
+ },
+ {
+  "controller": "dsceos",
+  "filter": false,
+  "J_T": 0.4142,
+  "cap_viol": 0.0
+ },
+ {
+  "controller": "projected_gradient_hocbf",
+  "filter": true,
+  "J_T": 0.4914,
+  "cap_viol": 0.0
+ },
+ {
+  "controller": "projected_gradient_hocbf",
+  "filter": false,
+  "J_T": 0.4914,
+  "cap_viol": 0.0
+ },
+ {
+  "controller": "independent_tracking",
+  "filter": true,
+  "J_T": 1.4946,
+  "cap_viol": 0.0
+ },
+ {
+  "controller": "independent_tracking",
+  "filter": false,
+  "J_T": 1.3608,
+  "cap_viol": 0.050563
+ }
+]

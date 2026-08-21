@@ -1,0 +1,70 @@
+{
+  "N15_a": {
+    "0.00": {
+      "J_T": 0.41421550135931695,
+      "final_aggregate_error": 0.01089428051772721,
+      "max_capacity_violation": 0.0,
+      "comm_edges_removed": 0,
+      "objective_edges": 26,
+      "rel_delta_pct_vs_full_overlay": 0.0
+    },
+    "0.10": {
+      "J_T": 0.42607110572022927,
+      "final_aggregate_error": 0.01089019527427739,
+      "max_capacity_violation": 0.0,
+      "comm_edges_removed": 3,
+      "objective_edges": 26,
+      "rel_delta_pct_vs_full_overlay": 2.8621826855842394
+    },
+    "0.20": {
+      "J_T": 0.42756059976492883,
+      "final_aggregate_error": 0.010895023459606233,
+      "max_capacity_violation": 0.0,
+      "comm_edges_removed": 5,
+      "objective_edges": 26,
+      "rel_delta_pct_vs_full_overlay": 3.2217766746579306
+    },
+    "0.30": {
+      "J_T": 0.44408472828208706,
+      "final_aggregate_error": 0.010865246737959048,
+      "max_capacity_violation": 0.0,
+      "comm_edges_removed": 8,
+      "objective_edges": 26,
+      "rel_delta_pct_vs_full_overlay": 7.211035517683254
+    }
+  },
+  "N15_c": {
+    "0.00": {
+      "J_T": 1.539968693155352,
+      "final_aggregate_error": 0.006403148761105584,
+      "max_capacity_violation": 0.0,
+      "comm_edges_removed": 0,
+      "objective_edges": 26,
+      "rel_delta_pct_vs_full_overlay": 0.0
+    },
+    "0.10": {
+      "J_T": 1.6147841496055653,
+      "final_aggregate_error": 0.006402843797679182,
+      "max_capacity_violation": 0.0,
+      "comm_edges_removed": 3,
+      "objective_edges": 26,
+      "rel_delta_pct_vs_full_overlay": 4.858245286592061
+    },
+    "0.20": {
+      "J_T": 1.622609745888477,
+      "final_aggregate_error": 0.006403604251767931,
+      "max_capacity_violation": 0.0,
+      "comm_edges_removed": 5,
+      "objective_edges": 26,
+      "rel_delta_pct_vs_full_overlay": 5.366411219944724
+    },
+    "0.30": {
+      "J_T": 1.727241091525567,
+      "final_aggregate_error": 0.006398091679989345,
+      "max_capacity_violation": 0.0,
+      "comm_edges_removed": 8,
+      "objective_edges": 26,
+      "rel_delta_pct_vs_full_overlay": 12.160792566925442
+    }
+  }
+}

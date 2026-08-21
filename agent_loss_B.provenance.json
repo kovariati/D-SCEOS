@@ -1,0 +1,14 @@
+{
+  "scenario": "B",
+  "run_id": "a08cc018df954e3eabc6da1c2aa4d07c",
+  "environment": {
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "python": "3.12.3",
+    "platform": "Linux-6.18.5-x86_64-with-glibc2.39"
+  },
+  "of": "agent_loss_B.json",
+  "numeric_sha256": "0eca3e569ca5138628868f31e41f292ed6f634dc95c15d71e0651b2967a76fa8",
+  "numeric_bytes": 371,
+  "bound_sha256": "29a2791ed571cc3e327c31529bedf27bb0ab5d7ffd73d70e06e223afa802a644"
+}

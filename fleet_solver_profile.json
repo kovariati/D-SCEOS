@@ -1,0 +1,146 @@
+{
+ "experiment": "profile",
+ "sizes": [
+  15,
+  30,
+  60,
+  120
+ ],
+ "seeds_per_size": 5,
+ "results": [
+  {
+   "N": 15,
+   "seeds": 5,
+   "steps": 600,
+   "summed_solve_time_s": 5.1292,
+   "process_cpu_s": 5.6272,
+   "wall_clock_s": 5.698,
+   "mean_solves_per_instant": 15.0,
+   "solve_ms_mean": 0.5699,
+   "solve_ms_p95": 0.79,
+   "solve_ms_p99": 1.2225,
+   "solve_ms_max": 72.0542,
+   "ideal_parallel_critical_path_ms_mean": 34.4308,
+   "ideal_parallel_critical_path_ms_max": 72.0542,
+   "comm_bytes_per_s_per_agent": {
+    "min": 24.0,
+    "mean": 105.6,
+    "max": 216.0
+   },
+   "mean_neighbours": 4.4,
+   "max_neighbours": 9,
+   "solve_ms_by_neighbour_count": {
+    "1": 0.5935,
+    "2": 0.5463,
+    "3": 0.5721,
+    "4": 0.5819,
+    "5": 0.5695,
+    "6": 0.5616,
+    "7": 0.5601,
+    "8": 0.5364,
+    "9": 0.6378
+   }
+  },
+  {
+   "N": 30,
+   "seeds": 5,
+   "steps": 600,
+   "summed_solve_time_s": 10.1445,
+   "process_cpu_s": 10.6543,
+   "wall_clock_s": 10.788,
+   "mean_solves_per_instant": 30.0,
+   "solve_ms_mean": 0.5636,
+   "solve_ms_p95": 0.8046,
+   "solve_ms_p99": 1.2845,
+   "solve_ms_max": 36.0843,
+   "ideal_parallel_critical_path_ms_mean": 19.2374,
+   "ideal_parallel_critical_path_ms_max": 36.0843,
+   "comm_bytes_per_s_per_agent": {
+    "min": 48.0,
+    "mean": 122.2,
+    "max": 216.0
+   },
+   "mean_neighbours": 5.093,
+   "max_neighbours": 9,
+   "solve_ms_by_neighbour_count": {
+    "2": 0.5161,
+    "3": 0.5335,
+    "4": 0.5507,
+    "5": 0.5675,
+    "6": 0.5838,
+    "7": 0.5558,
+    "8": 0.5833,
+    "9": 0.5479
+   }
+  },
+  {
+   "N": 60,
+   "seeds": 5,
+   "steps": 600,
+   "summed_solve_time_s": 19.7287,
+   "process_cpu_s": 20.3002,
+   "wall_clock_s": 20.473,
+   "mean_solves_per_instant": 60.0,
+   "solve_ms_mean": 0.548,
+   "solve_ms_p95": 0.7642,
+   "solve_ms_p99": 1.1578,
+   "solve_ms_max": 70.9975,
+   "ideal_parallel_critical_path_ms_mean": 24.3293,
+   "ideal_parallel_critical_path_ms_max": 70.9975,
+   "comm_bytes_per_s_per_agent": {
+    "min": 96.0,
+    "mean": 117.4,
+    "max": 192.0
+   },
+   "mean_neighbours": 4.893,
+   "max_neighbours": 8,
+   "solve_ms_by_neighbour_count": {
+    "4": 0.5433,
+    "5": 0.5515,
+    "6": 0.5489,
+    "7": 0.5381,
+    "8": 0.6628
+   }
+  },
+  {
+   "N": 120,
+   "seeds": 5,
+   "steps": 600,
+   "summed_solve_time_s": 39.2485,
+   "process_cpu_s": 40.0267,
+   "wall_clock_s": 40.383,
+   "mean_solves_per_instant": 120.0,
+   "solve_ms_mean": 0.5451,
+   "solve_ms_p95": 0.7443,
+   "solve_ms_p99": 1.0914,
+   "solve_ms_max": 116.3733,
+   "ideal_parallel_critical_path_ms_mean": 55.2166,
+   "ideal_parallel_critical_path_ms_max": 116.3733,
+   "comm_bytes_per_s_per_agent": {
+    "min": 96.0,
+    "mean": 115.8,
+    "max": 216.0
+   },
+   "mean_neighbours": 4.827,
+   "max_neighbours": 9,
+   "solve_ms_by_neighbour_count": {
+    "4": 0.5392,
+    "5": 0.5545,
+    "6": 0.5372,
+    "7": 0.5702,
+    "8": 0.5779,
+    "9": 0.5097
+   }
+  }
+ ],
+ "environment": {
+  "python": "3.12.3",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "platform": "Linux-6.18.5-x86_64-with-glibc2.39",
+  "machine": "x86_64"
+ },
+ "dt_sim_min": 0.05,
+ "dt_phys_s": 3.0,
+ "note": "Solve times and process CPU are environment-specific and are NOT asserted numerically. summed_solve_time_s is the sum of per-agent solve times; process_cpu_s is measured process CPU; the ideal-parallel critical path is the slowest single agent-solve per instant, an idealised lower bound on parallel latency, not a measured parallel runtime. The communication load uses the neighbour count (W>0) and is per PHYSICAL second: 9 scalars x 8 bytes per neighbour per sampling instant, one instant = 3 physical seconds (dt=0.05 simulation units = 0.05 minutes). It is exact for this protocol and depends only on the local neighbour count, not on N."
+}

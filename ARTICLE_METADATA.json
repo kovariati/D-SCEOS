@@ -1,0 +1,64 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "headline": "Swarm-inspired peer-to-peer control for resource-aware flexibility sharing in cyber–physical energy systems",
+  "name": "Swarm-inspired peer-to-peer control for resource-aware flexibility sharing in cyber–physical energy systems",
+  "description": "Peer-to-peer control of heterogeneous electrically interfaced flexibility resources using dynamic aggregate and target estimation, a graph-local optimization-guided gradient, capacity-normalized sharing, and a local CLF/HOCBF-constrained control step. The published study reports an equal-effort comparator protocol, component ablation, Monte Carlo validation, scalability diagnostics, and explicit simulation and sampled-data scope limitations.",
+  "author": {
+    "@type": "Person",
+    "name": "Attila Kovari",
+    "givenName": "Attila",
+    "familyName": "Kovari"
+  },
+  "datePublished": "2026-08-18",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Elsevier Ltd."
+  },
+  "isPartOf": {
+    "@type": "PublicationVolume",
+    "volumeNumber": "31",
+    "isPartOf": {
+      "@type": "Periodical",
+      "name": "Energy Conversion and Management: X",
+      "issn": "2590-1745"
+    }
+  },
+  "pagination": "102212",
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "value": "10.1016/j.ecmx.2026.102212"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "PII",
+      "value": "S2590174526006951"
+    }
+  ],
+  "url": "https://doi.org/10.1016/j.ecmx.2026.102212",
+  "sameAs": "https://www.sciencedirect.com/science/article/pii/S2590174526006951",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "keywords": [
+    "Cyber–physical energy systems",
+    "Distributed control",
+    "Flexibility",
+    "Smart grids",
+    "Energy storage",
+    "Control barrier functions",
+    "Swarm coordination"
+  ],
+  "about": [
+    "peer-to-peer control",
+    "resource-aware flexibility sharing",
+    "distributed energy resources",
+    "virtual power plants",
+    "multi-agent systems",
+    "dynamic average consensus",
+    "distributed optimization",
+    "control Lyapunov functions",
+    "high-order control barrier functions",
+    "capacity-normalized utilization sharing"
+  ]
+}

@@ -1,0 +1,80 @@
+[
+ {
+  "cluster": "N15",
+  "scenario": "A",
+  "J_T": {
+   "D-SCEOS": 0.4142,
+   "DPD-HOCBF": 0.5206,
+   "DPG-HOCBF": 0.4914,
+   "PD baseline": 1.4946
+  },
+  "dpd_over_dsceos": 1.2569,
+  "dpd_max_cap_violation": 0.0,
+  "dsceos_lowest": true
+ },
+ {
+  "cluster": "N15",
+  "scenario": "B",
+  "J_T": {
+   "D-SCEOS": 0.1653,
+   "DPD-HOCBF": 0.1691,
+   "DPG-HOCBF": 0.1669,
+   "PD baseline": 1.4192
+  },
+  "dpd_over_dsceos": 1.0228,
+  "dpd_max_cap_violation": 0.0,
+  "dsceos_lowest": true
+ },
+ {
+  "cluster": "N15",
+  "scenario": "C",
+  "J_T": {
+   "D-SCEOS": 1.54,
+   "DPD-HOCBF": 2.3107,
+   "DPG-HOCBF": 2.1407,
+   "PD baseline": 3.2286
+  },
+  "dpd_over_dsceos": 1.5005,
+  "dpd_max_cap_violation": 0.0,
+  "dsceos_lowest": true
+ },
+ {
+  "cluster": "N60",
+  "scenario": "A",
+  "J_T": {
+   "D-SCEOS": 2.3253,
+   "DPD-HOCBF": 7.8359,
+   "DPG-HOCBF": 11.9826,
+   "PD baseline": 20.1316
+  },
+  "dpd_over_dsceos": 3.3699,
+  "dpd_max_cap_violation": 0.0,
+  "dsceos_lowest": true
+ },
+ {
+  "cluster": "N60",
+  "scenario": "B",
+  "J_T": {
+   "D-SCEOS": 1.2207,
+   "DPD-HOCBF": 6.039,
+   "DPG-HOCBF": 15.5102,
+   "PD baseline": 29.3261
+  },
+  "dpd_over_dsceos": 4.9473,
+  "dpd_max_cap_violation": 0.0,
+  "dsceos_lowest": true
+ },
+ {
+  "cluster": "N60",
+  "scenario": "C",
+  "J_T": {
+   "D-SCEOS": 7.3944,
+   "DPD-HOCBF": 15.7541,
+   "DPG-HOCBF": 22.6677,
+   "PD baseline": 38.4208
+  },
+  "dpd_over_dsceos": 2.1305,
+  "dpd_max_cap_violation": 0.0,
+  "dsceos_lowest": true
+ }
+]

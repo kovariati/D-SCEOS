@@ -1,0 +1,266 @@
+{
+  "N15_a": {
+    "D-SCEOS": {
+      "symmetric": {
+        "J_T_own_convention": 0.41421550135931695,
+        "final_aggregate_error": 0.01089428051772721,
+        "max_capacity_violation": 0.0,
+        "final_utilisation_spread": 0.6992632252468522
+      },
+      "directional": {
+        "J_T_own_convention": 0.43247106722631357,
+        "final_aggregate_error": 0.011474839308328745,
+        "max_capacity_violation": 0.0,
+        "final_utilisation_spread": 0.08191079141973165
+      }
+    },
+    "DPG-HOCBF": {
+      "symmetric": {
+        "J_T_own_convention": 0.5208518461059409,
+        "final_aggregate_error": 0.010434412830143942,
+        "max_capacity_violation": 0.0,
+        "final_utilisation_spread": 0.6765553806237299
+      },
+      "directional": {
+        "J_T_own_convention": 0.9713190349833458,
+        "final_aggregate_error": 0.02504885653823562,
+        "max_capacity_violation": 0.0,
+        "final_utilisation_spread": 0.4321736759052255
+      }
+    },
+    "PD baseline": {
+      "symmetric": {
+        "J_T_own_convention": 1.5871871705102074,
+        "final_aggregate_error": 0.011111111112007646,
+        "max_capacity_violation": 0.0,
+        "final_utilisation_spread": 0.9111111110745578
+      },
+      "directional": {
+        "J_T_own_convention": 2.3013681398052093,
+        "final_aggregate_error": 0.011111111112007646,
+        "max_capacity_violation": 0.0,
+        "final_utilisation_spread": 0.9111111110745578
+      }
+    }
+  },
+  "N15_b": {
+    "D-SCEOS": {
+      "symmetric": {
+        "J_T_own_convention": 0.16530252736030476,
+        "final_aggregate_error": 0.006082291003247753,
+        "max_capacity_violation": 0.0,
+        "final_utilisation_spread": 0.29031376941388093
+      },
+      "directional": {
+        "J_T_own_convention": 0.16907505332480902,
+        "final_aggregate_error": 0.006219504812841933,
+        "max_capacity_violation": 0.0,
+        "final_utilisation_spread": 0.03181845626290569
+      }
+    },
+    "DPG-HOCBF": {
+      "symmetric": {
+        "J_T_own_convention": 0.1690729734241707,
+        "final_aggregate_error": 0.006067123863916252,
+        "max_capacity_violation": 0.0,
+        "final_utilisation_spread": 0.28986209714386457
+      },
+      "directional": {
+        "J_T_own_convention": 0.19657091353903589,
+        "final_aggregate_error": 0.007895924652576478,
+        "max_capacity_violation": 0.0,
+        "final_utilisation_spread": 0.06129220015986357
+      }
+    },
+    "PD baseline": {
+      "symmetric": {
+        "J_T_own_convention": 1.4637074627470954,
+        "final_aggregate_error": 6.897260540483785e-15,
+        "max_capacity_violation": 0.0,
+        "final_utilisation_spread": 0.9466666666656322
+      },
+      "directional": {
+        "J_T_own_convention": 5.899090613873222,
+        "final_aggregate_error": 6.897260540483785e-15,
+        "max_capacity_violation": 0.0,
+        "final_utilisation_spread": 0.9466666666656322
+      }
+    }
+  },
+  "N15_c": {
+    "D-SCEOS": {
+      "symmetric": {
+        "J_T_own_convention": 1.539968693155352,
+        "final_aggregate_error": 0.006403148761105584,
+        "max_capacity_violation": 0.0,
+        "final_utilisation_spread": 0.298668382416226
+      },
+      "directional": {
+        "J_T_own_convention": 1.5939624616581642,
+        "final_aggregate_error": 0.0065571662713806034,
+        "max_capacity_violation": 0.0,
+        "final_utilisation_spread": 0.044166457123428815
+      }
+    },
+    "DPG-HOCBF": {
+      "symmetric": {
+        "J_T_own_convention": 2.311148937843447,
+        "final_aggregate_error": 0.006169359596155028,
+        "max_capacity_violation": 0.0,
+        "final_utilisation_spread": 0.29176104556257787
+      },
+      "directional": {
+        "J_T_own_convention": 2.6689168685767495,
+        "final_aggregate_error": 0.007835555994233627,
+        "max_capacity_violation": 0.0,
+        "final_utilisation_spread": 0.059930601281335344
+      }
+    },
+    "PD baseline": {
+      "symmetric": {
+        "J_T_own_convention": 3.1516371904632567,
+        "final_aggregate_error": 1.1150912609939193e-16,
+        "max_capacity_violation": 0.0,
+        "final_utilisation_spread": 0.9466666666666639
+      },
+      "directional": {
+        "J_T_own_convention": 7.412331296823307,
+        "final_aggregate_error": 1.1150912609939193e-16,
+        "max_capacity_violation": 0.0,
+        "final_utilisation_spread": 0.9466666666666639
+      }
+    }
+  },
+  "N60_a": {
+    "D-SCEOS": {
+      "symmetric": {
+        "J_T_own_convention": 2.3252507996174647,
+        "final_aggregate_error": 0.019183493151272622,
+        "max_capacity_violation": 0.0,
+        "final_utilisation_spread": 0.7680759633173988
+      },
+      "directional": {
+        "J_T_own_convention": 2.4875878588594227,
+        "final_aggregate_error": 0.020960316763558126,
+        "max_capacity_violation": 0.0,
+        "final_utilisation_spread": 0.1324510928214693
+      }
+    },
+    "DPG-HOCBF": {
+      "symmetric": {
+        "J_T_own_convention": 5.484173932755725,
+        "final_aggregate_error": 0.0425017314840313,
+        "max_capacity_violation": 0.0,
+        "final_utilisation_spread": 1.333094985673052
+      },
+      "directional": {
+        "J_T_own_convention": 16.04652176588329,
+        "final_aggregate_error": 0.04486996207214637,
+        "max_capacity_violation": 0.0,
+        "final_utilisation_spread": 0.6704403499347642
+      }
+    },
+    "PD baseline": {
+      "symmetric": {
+        "J_T_own_convention": 22.256877081568536,
+        "final_aggregate_error": 0.011111111114490188,
+        "max_capacity_violation": 0.0,
+        "final_utilisation_spread": 0.9111111110746242
+      },
+      "directional": {
+        "J_T_own_convention": 43.04849995335522,
+        "final_aggregate_error": 0.011111111114490188,
+        "max_capacity_violation": 0.0,
+        "final_utilisation_spread": 0.9111111110746242
+      }
+    }
+  },
+  "N60_b": {
+    "D-SCEOS": {
+      "symmetric": {
+        "J_T_own_convention": 1.2206626920561132,
+        "final_aggregate_error": 0.01135142598994869,
+        "max_capacity_violation": 0.0,
+        "final_utilisation_spread": 0.25812622338979513
+      },
+      "directional": {
+        "J_T_own_convention": 1.3008356696263101,
+        "final_aggregate_error": 0.012103676140012579,
+        "max_capacity_violation": 0.0,
+        "final_utilisation_spread": 0.07483406809754824
+      }
+    },
+    "DPG-HOCBF": {
+      "symmetric": {
+        "J_T_own_convention": 4.075583828902739,
+        "final_aggregate_error": 0.004635416945466306,
+        "max_capacity_violation": 0.0,
+        "final_utilisation_spread": 0.4463404723751368
+      },
+      "directional": {
+        "J_T_own_convention": 47.82719112537452,
+        "final_aggregate_error": 0.03966064061298519,
+        "max_capacity_violation": 0.0,
+        "final_utilisation_spread": 0.7479672517269702
+      }
+    },
+    "PD baseline": {
+      "symmetric": {
+        "J_T_own_convention": 30.306205934383684,
+        "final_aggregate_error": 9.117706589734098e-15,
+        "max_capacity_violation": 0.0,
+        "final_utilisation_spread": 0.9466666666661031
+      },
+      "directional": {
+        "J_T_own_convention": 80.05274574666612,
+        "final_aggregate_error": 9.117706589734098e-15,
+        "max_capacity_violation": 0.0,
+        "final_utilisation_spread": 0.9466666666661031
+      }
+    }
+  },
+  "N60_c": {
+    "D-SCEOS": {
+      "symmetric": {
+        "J_T_own_convention": 7.394431289740692,
+        "final_aggregate_error": 0.011494642559124949,
+        "max_capacity_violation": 0.0,
+        "final_utilisation_spread": 0.2708563537346922
+      },
+      "directional": {
+        "J_T_own_convention": 7.666233308666998,
+        "final_aggregate_error": 0.012232760902728988,
+        "max_capacity_violation": 0.0,
+        "final_utilisation_spread": 0.0858261019506127
+      }
+    },
+    "DPG-HOCBF": {
+      "symmetric": {
+        "J_T_own_convention": 13.158262340616254,
+        "final_aggregate_error": 0.004717471823872218,
+        "max_capacity_violation": 0.0,
+        "final_utilisation_spread": 0.44692950753719785
+      },
+      "directional": {
+        "J_T_own_convention": 41.48705869247888,
+        "final_aggregate_error": 0.039726506378670354,
+        "max_capacity_violation": 0.0,
+        "final_utilisation_spread": 0.7476006831029471
+      }
+    },
+    "PD baseline": {
+      "symmetric": {
+        "J_T_own_convention": 43.0824139033934,
+        "final_aggregate_error": 5.618469141565346e-17,
+        "max_capacity_violation": 0.0,
+        "final_utilisation_spread": 0.9466666666666642
+      },
+      "directional": {
+        "J_T_own_convention": 100.78952895467081,
+        "final_aggregate_error": 5.618469141565346e-17,
+        "max_capacity_violation": 0.0,
+        "final_utilisation_spread": 0.9466666666666642
+      }
+    }
+  }
+}

@@ -1,0 +1,1125 @@
+{
+  "_comment": "Authoritative expected values for D-SCEOS v1.0.0. validate_results.py checks regenerated JSON artifacts against these values with the stated tolerances.",
+  "tol": {
+    "J_T_rtol": 0.002,
+    "dist_atol": 0.003,
+    "viol_atol": 0.001
+  },
+  "realistic_JT": {
+    "N15_A": {
+      "dsceos": 0.4142,
+      "projected_gradient_hocbf": 0.4914,
+      "independent_tracking": 1.4946
+    },
+    "N15_B": {
+      "dsceos": 0.1653,
+      "projected_gradient_hocbf": 0.1669,
+      "independent_tracking": 1.4192
+    },
+    "N15_C": {
+      "dsceos": 1.54,
+      "projected_gradient_hocbf": 2.1407,
+      "independent_tracking": 3.2286
+    },
+    "N60_A": {
+      "dsceos": 2.3253,
+      "projected_gradient_hocbf": 11.9826,
+      "independent_tracking": 20.1316
+    },
+    "N60_B": {
+      "dsceos": 1.2207,
+      "projected_gradient_hocbf": 15.5102,
+      "independent_tracking": 29.3261
+    },
+    "N60_C": {
+      "dsceos": 7.3944,
+      "projected_gradient_hocbf": 22.6677,
+      "independent_tracking": 38.4208
+    }
+  },
+  "ladder_JT_dsceos": {
+    "soft": 3.4085,
+    "feasible": 11.8183,
+    "borderline-low": 27.9575,
+    "borderline-mid": 54.7525,
+    "borderline-high": 118.9705,
+    "hard-stress": 171.0286,
+    "extreme-infeasible": 297.788
+  },
+  "ladder_JT_pd_extreme": 357.4094,
+  "benchmark_distance_N60_dsceos_PQnorm": {
+    "A": 0.0145,
+    "B": 0.0005,
+    "C": 0.0074
+  },
+  "filter": {
+    "pd_off_JT": 1.3608,
+    "pd_off_viol": 0.050563,
+    "pd_on_JT": 1.4946,
+    "dsceos_JT": 0.4142,
+    "dpg_JT": 0.4914
+  },
+  "economic_costwtd_N60_dsceos": {
+    "A": 1.3659,
+    "B": 0.0245,
+    "C": 8.5016
+  },
+  "target_estimator": {
+    "N15_rho": 0.94993,
+    "N15_norm2": 0.95411,
+    "N60_rho": 0.95965,
+    "N60_norm2": 0.96381
+  },
+  "acceptability_matrix": {
+    "N15_A": {
+      "R1": [],
+      "R2": [
+        "DPG",
+        "DS",
+        "PD"
+      ],
+      "R3": [
+        "DPG",
+        "DS"
+      ],
+      "R4": [
+        "DPG",
+        "DS",
+        "PD"
+      ]
+    },
+    "N15_B": {
+      "R1": [
+        "PD"
+      ],
+      "R2": [
+        "DPG",
+        "DS"
+      ],
+      "R3": [
+        "DPG",
+        "DS"
+      ],
+      "R4": [
+        "PD"
+      ]
+    },
+    "N15_C": {
+      "R1": [
+        "PD"
+      ],
+      "R2": [
+        "DPG",
+        "DS"
+      ],
+      "R3": [
+        "DPG",
+        "DS"
+      ],
+      "R4": [
+        "DPG",
+        "DS",
+        "PD"
+      ]
+    },
+    "N60_A": {
+      "R1": [],
+      "R2": [
+        "DS"
+      ],
+      "R3": [
+        "DS"
+      ],
+      "R4": [
+        "DS",
+        "PD"
+      ]
+    },
+    "N60_B": {
+      "R1": [
+        "PD"
+      ],
+      "R2": [
+        "DPG",
+        "DS"
+      ],
+      "R3": [
+        "DS"
+      ],
+      "R4": [
+        "DS",
+        "PD"
+      ]
+    },
+    "N60_C": {
+      "R1": [
+        "PD"
+      ],
+      "R2": [
+        "DPG",
+        "DS"
+      ],
+      "R3": [
+        "DS"
+      ],
+      "R4": [
+        "DS",
+        "PD"
+      ]
+    }
+  },
+  "ladder_diagnostics_dsceos": {
+    "soft": {
+      "empty_agent_steps": 0,
+      "empty_intersection_steps": 0,
+      "min_intersection_margin_min": 0.3,
+      "max_final_force_residual_max": 2e-08,
+      "max_clf_slack": 2.1492
+    },
+    "feasible": {
+      "empty_agent_steps": 0,
+      "empty_intersection_steps": 0,
+      "min_intersection_margin_min": 0.3,
+      "max_final_force_residual_max": 2e-08,
+      "max_clf_slack": 6.1042
+    },
+    "borderline-low": {
+      "empty_agent_steps": 0,
+      "empty_intersection_steps": 0,
+      "min_intersection_margin_min": 0.3,
+      "max_final_force_residual_max": 2e-08,
+      "max_clf_slack": 12.1731
+    },
+    "borderline-mid": {
+      "empty_agent_steps": 0,
+      "empty_intersection_steps": 0,
+      "min_intersection_margin_min": 0.3,
+      "max_final_force_residual_max": 2e-08,
+      "max_clf_slack": 20.3857
+    },
+    "borderline-high": {
+      "empty_agent_steps": 0,
+      "empty_intersection_steps": 0,
+      "min_intersection_margin_min": 0.3,
+      "max_final_force_residual_max": 2e-08,
+      "max_clf_slack": 34.6091
+    },
+    "hard-stress": {
+      "empty_agent_steps": 0,
+      "empty_intersection_steps": 0,
+      "min_intersection_margin_min": 0.3,
+      "max_final_force_residual_max": 2e-08,
+      "max_clf_slack": 42.0871
+    },
+    "extreme-infeasible": {
+      "empty_agent_steps": 0,
+      "empty_intersection_steps": 0,
+      "min_intersection_margin_min": 0.3,
+      "max_final_force_residual_max": 2e-08,
+      "max_clf_slack": 58.7565
+    }
+  },
+  "allocation_rms_N60_dsceos": {
+    "A": 0.00271,
+    "B": 0.0001,
+    "C": 0.002
+  },
+  "control_displacement_N15A": {
+    "J_T": 0.4142155,
+    "n_agent_steps": 9000,
+    "max": 1.462651,
+    "mean": 0.012168,
+    "p95": 0.020199,
+    "frac_gt_1em3": 0.063444
+  },
+  "run_only_diagnostics": {
+    "comparator_tuning": {
+      "dsceos_ref_J_T": 0.414216,
+      "best_pd_J_T": 1.494577,
+      "best_dpg_J_T": 0.491409,
+      "max_cap_violation": 0.0
+    },
+    "sensitivity_N15A": {
+      "n_points": 28,
+      "dsceos_lowest_count": 28
+    },
+    "gateway_sweep": {
+      "n_rows": 12,
+      "max_cap_violation": 0.0,
+      "default_fraction_J_T": 0.414216
+    },
+    "agent_loss": {
+      "A_max_cap_violation": 0.0,
+      "B_max_cap_violation": 0.0,
+      "A_first_return_min": 6.75,
+      "_note": "Updated after the target-estimate initialisation was made local: on reconfiguration the surviving agents now restart the target estimate from the local no-information prior instead of the fleet-wide aggregate, which lengthens the post-drop transient. Capacity violation is unchanged at zero."
+    },
+    "comm_failure": {
+      "n_rows": 4,
+      "max_cap_violation": 0.0,
+      "spread_ratio_min": 1.025602,
+      "spread_ratio_max": 7.81204
+    }
+  },
+  "diagnostics_full": {
+    "comparator_tuning": {
+      "dsceos_ref": 0.41421550135931695,
+      "dpg": [
+        {
+          "step": 0.02,
+          "J_T": 0.671921824212226,
+          "cap_viol": 0.0
+        },
+        {
+          "step": 0.04,
+          "J_T": 0.5576555809894296,
+          "cap_viol": 0.0
+        },
+        {
+          "step": 0.06,
+          "J_T": 0.5208518461059409,
+          "cap_viol": 0.0
+        },
+        {
+          "step": 0.1,
+          "J_T": 0.4914092035453555,
+          "cap_viol": 0.0
+        },
+        {
+          "step": 0.2,
+          "J_T": 1.619528395103368,
+          "cap_viol": 0.0
+        },
+        {
+          "step": 0.4,
+          "J_T": 2.1628703084564798,
+          "cap_viol": 0.0
+        },
+        {
+          "step": 0.72,
+          "J_T": 2.3859844624239126,
+          "cap_viol": 0.0
+        }
+      ],
+      "pd": [
+        {
+          "kp": 0.75,
+          "kd": 1.0,
+          "J_T": 1.6109669521007044,
+          "cap_viol": 0.0
+        },
+        {
+          "kp": 0.75,
+          "kd": 1.6,
+          "J_T": 1.5562984097313846,
+          "cap_viol": 0.0
+        },
+        {
+          "kp": 0.75,
+          "kd": 2.5,
+          "J_T": 1.4945770723759493,
+          "cap_viol": 0.0
+        },
+        {
+          "kp": 1.25,
+          "kd": 1.0,
+          "J_T": 1.623326594721511,
+          "cap_viol": 0.0
+        },
+        {
+          "kp": 1.25,
+          "kd": 1.6,
+          "J_T": 1.5871871705102074,
+          "cap_viol": 0.0
+        },
+        {
+          "kp": 1.25,
+          "kd": 2.5,
+          "J_T": 1.5457496975218912,
+          "cap_viol": 0.0
+        },
+        {
+          "kp": 2.0,
+          "kd": 1.0,
+          "J_T": 1.6200537626543867,
+          "cap_viol": 0.0
+        },
+        {
+          "kp": 2.0,
+          "kd": 1.6,
+          "J_T": 1.6008536834831064,
+          "cap_viol": 0.0
+        },
+        {
+          "kp": 2.0,
+          "kd": 2.5,
+          "J_T": 1.5738761681195763,
+          "cap_viol": 0.0
+        },
+        {
+          "kp": 3.0,
+          "kd": 1.0,
+          "J_T": 1.6157859143581026,
+          "cap_viol": 0.0
+        },
+        {
+          "kp": 3.0,
+          "kd": 1.6,
+          "J_T": 1.6039347523985776,
+          "cap_viol": 0.0
+        },
+        {
+          "kp": 3.0,
+          "kd": 2.5,
+          "J_T": 1.5876112236343296,
+          "cap_viol": 0.0
+        }
+      ],
+      "best_dpg": {
+        "step": 0.1,
+        "J_T": 0.4914092035453555,
+        "cap_viol": 0.0
+      },
+      "best_pd": {
+        "kp": 0.75,
+        "kd": 2.5,
+        "J_T": 1.4945770723759493,
+        "cap_viol": 0.0
+      }
+    },
+    "sensitivity_N15A": [
+      {
+        "param": "w_bar",
+        "value": 0.1,
+        "dsceos": 0.20293151133411014,
+        "projected_gradient_hocbf": 0.2073581529650711,
+        "independent_tracking": 1.4461081468499617,
+        "dsceos_lowest": true
+      },
+      {
+        "param": "w_bar",
+        "value": 0.333,
+        "dsceos": 0.32625488331577235,
+        "projected_gradient_hocbf": 0.36795069309239237,
+        "independent_tracking": 1.5041165218726158,
+        "dsceos_lowest": true
+      },
+      {
+        "param": "w_bar",
+        "value": 0.667,
+        "dsceos": 0.41428768817696543,
+        "projected_gradient_hocbf": 0.5209927058698126,
+        "independent_tracking": 1.587270158171184,
+        "dsceos_lowest": true
+      },
+      {
+        "param": "w_bar",
+        "value": 1.0,
+        "dsceos": 0.4783767842203277,
+        "projected_gradient_hocbf": 0.6565814937550715,
+        "independent_tracking": 1.6701748314868228,
+        "dsceos_lowest": true
+      },
+      {
+        "param": "w_bar",
+        "value": 1.5,
+        "dsceos": 0.5570704755689928,
+        "projected_gradient_hocbf": 0.8514438738728061,
+        "independent_tracking": 1.7946563229517452,
+        "dsceos_lowest": true
+      },
+      {
+        "param": "w_bar",
+        "value": 2.0,
+        "dsceos": 0.6274775934586543,
+        "projected_gradient_hocbf": 1.0443706804888755,
+        "independent_tracking": 1.9191378144166682,
+        "dsceos_lowest": true
+      },
+      {
+        "param": "lam_s",
+        "value": 0.01,
+        "dsceos": 0.35760871437486874,
+        "projected_gradient_hocbf": 0.47419865841346065,
+        "independent_tracking": 0.4090671476685648,
+        "dsceos_lowest": true
+      },
+      {
+        "param": "lam_s",
+        "value": 0.05,
+        "dsceos": 0.3906218141859541,
+        "projected_gradient_hocbf": 0.5012406303836202,
+        "independent_tracking": 0.7456728684804628,
+        "dsceos_lowest": true
+      },
+      {
+        "param": "lam_s",
+        "value": 0.15,
+        "dsceos": 0.41421550135931695,
+        "projected_gradient_hocbf": 0.5208518461059409,
+        "independent_tracking": 1.5871871705102074,
+        "dsceos_lowest": true
+      },
+      {
+        "param": "lam_s",
+        "value": 0.3,
+        "dsceos": 0.43321189371302804,
+        "projected_gradient_hocbf": 0.5388281111427089,
+        "independent_tracking": 2.8494586235548245,
+        "dsceos_lowest": true
+      },
+      {
+        "param": "lam_s",
+        "value": 0.5,
+        "dsceos": 0.45481503821247415,
+        "projected_gradient_hocbf": 3.5759708458311152,
+        "independent_tracking": 4.532487227614314,
+        "dsceos_lowest": true
+      },
+      {
+        "param": "lam_int",
+        "value": 0.001,
+        "dsceos": 0.3758918364139909,
+        "projected_gradient_hocbf": 0.48111266993491375,
+        "independent_tracking": 1.5798290235004044,
+        "dsceos_lowest": true
+      },
+      {
+        "param": "lam_int",
+        "value": 0.01,
+        "dsceos": 0.38842235672300673,
+        "projected_gradient_hocbf": 0.4943275618716852,
+        "independent_tracking": 1.5821125863655157,
+        "dsceos_lowest": true
+      },
+      {
+        "param": "lam_int",
+        "value": 0.03,
+        "dsceos": 0.41421550135931695,
+        "projected_gradient_hocbf": 0.5208518461059409,
+        "independent_tracking": 1.5871871705102074,
+        "dsceos_lowest": true
+      },
+      {
+        "param": "lam_int",
+        "value": 0.06,
+        "dsceos": 0.4484302902832338,
+        "projected_gradient_hocbf": 0.5550175619448711,
+        "independent_tracking": 1.594799046727245,
+        "dsceos_lowest": true
+      },
+      {
+        "param": "lam_int",
+        "value": 0.1,
+        "dsceos": 0.487454698512855,
+        "projected_gradient_hocbf": 0.5930370245731525,
+        "independent_tracking": 1.6049482150166292,
+        "dsceos_lowest": true
+      },
+      {
+        "param": "alpha0",
+        "value": 0.5,
+        "dsceos": 0.4257712013137632,
+        "projected_gradient_hocbf": 0.52411591964959,
+        "independent_tracking": 1.6346126520301896,
+        "dsceos_lowest": true
+      },
+      {
+        "param": "alpha0",
+        "value": 1.0,
+        "dsceos": 0.41421550135931695,
+        "projected_gradient_hocbf": 0.5208518461059409,
+        "independent_tracking": 1.5871871705102074,
+        "dsceos_lowest": true
+      },
+      {
+        "param": "alpha0",
+        "value": 2.0,
+        "dsceos": 0.4111262487041847,
+        "projected_gradient_hocbf": 0.5208518461059409,
+        "independent_tracking": 1.5744679232154466,
+        "dsceos_lowest": true
+      },
+      {
+        "param": "alpha0",
+        "value": 4.0,
+        "dsceos": 0.41093148261249485,
+        "projected_gradient_hocbf": 0.5208518461059409,
+        "independent_tracking": 1.578372533431558,
+        "dsceos_lowest": true
+      },
+      {
+        "param": "alpha1",
+        "value": 1.0,
+        "dsceos": 0.411117458877747,
+        "projected_gradient_hocbf": 0.5208518461059409,
+        "independent_tracking": 1.5699359748998294,
+        "dsceos_lowest": true
+      },
+      {
+        "param": "alpha1",
+        "value": 2.0,
+        "dsceos": 0.41421550135931695,
+        "projected_gradient_hocbf": 0.5208518461059409,
+        "independent_tracking": 1.5871871705102074,
+        "dsceos_lowest": true
+      },
+      {
+        "param": "alpha1",
+        "value": 3.0,
+        "dsceos": 0.4195236557277679,
+        "projected_gradient_hocbf": 0.5216837994699303,
+        "independent_tracking": 1.6148031757468033,
+        "dsceos_lowest": true
+      },
+      {
+        "param": "alpha1",
+        "value": 4.0,
+        "dsceos": 0.42488495681602223,
+        "projected_gradient_hocbf": 0.5248669267899461,
+        "independent_tracking": 1.6353583117191595,
+        "dsceos_lowest": true
+      },
+      {
+        "param": "clf_rate",
+        "value": 0.4,
+        "dsceos": 0.41436119100817664,
+        "projected_gradient_hocbf": 0.5208518461059409,
+        "independent_tracking": 1.5871871705102074,
+        "dsceos_lowest": true
+      },
+      {
+        "param": "clf_rate",
+        "value": 0.8,
+        "dsceos": 0.41421550135931695,
+        "projected_gradient_hocbf": 0.5208518461059409,
+        "independent_tracking": 1.5871871705102074,
+        "dsceos_lowest": true
+      },
+      {
+        "param": "clf_rate",
+        "value": 1.2,
+        "dsceos": 0.41598750398902284,
+        "projected_gradient_hocbf": 0.5208518461059409,
+        "independent_tracking": 1.5871871705102074,
+        "dsceos_lowest": true
+      },
+      {
+        "param": "clf_rate",
+        "value": 2.0,
+        "dsceos": 0.43138296898098666,
+        "projected_gradient_hocbf": 0.5208518461059409,
+        "independent_tracking": 1.5871871705102074,
+        "dsceos_lowest": true
+      }
+    ],
+    "gateway_sweep": [
+      {
+        "kind": "fraction",
+        "scenario": "A",
+        "gw_fraction": 0.07,
+        "n_gateways": 2,
+        "J_T": 0.4660961279074334,
+        "agg_err": 0.01081712721647562,
+        "cap_viol": 0.0
+      },
+      {
+        "kind": "fraction",
+        "scenario": "A",
+        "gw_fraction": 0.15,
+        "n_gateways": 3,
+        "J_T": 0.41421550135931695,
+        "agg_err": 0.01089428051772721,
+        "cap_viol": 0.0
+      },
+      {
+        "kind": "fraction",
+        "scenario": "A",
+        "gw_fraction": 0.3,
+        "n_gateways": 5,
+        "J_T": 0.39555845416517443,
+        "agg_err": 0.010904891742721698,
+        "cap_viol": 0.0
+      },
+      {
+        "kind": "fraction",
+        "scenario": "A",
+        "gw_fraction": 0.5,
+        "n_gateways": 8,
+        "J_T": 0.386852943506685,
+        "agg_err": 0.010897553254938148,
+        "cap_viol": 0.0
+      },
+      {
+        "kind": "fraction",
+        "scenario": "A",
+        "gw_fraction": 1.0,
+        "n_gateways": 15,
+        "J_T": 0.3765949535991238,
+        "agg_err": 0.01090589208826266,
+        "cap_viol": 0.0
+      },
+      {
+        "kind": "fraction",
+        "scenario": "B",
+        "gw_fraction": 0.07,
+        "n_gateways": 2,
+        "J_T": 0.1665893969538349,
+        "agg_err": 0.0060711451974478775,
+        "cap_viol": 0.0
+      },
+      {
+        "kind": "fraction",
+        "scenario": "B",
+        "gw_fraction": 0.15,
+        "n_gateways": 3,
+        "J_T": 0.16530252736030476,
+        "agg_err": 0.006082291003247753,
+        "cap_viol": 0.0
+      },
+      {
+        "kind": "fraction",
+        "scenario": "B",
+        "gw_fraction": 0.3,
+        "n_gateways": 5,
+        "J_T": 0.165004547831523,
+        "agg_err": 0.006084715523355835,
+        "cap_viol": 0.0
+      },
+      {
+        "kind": "fraction",
+        "scenario": "B",
+        "gw_fraction": 0.5,
+        "n_gateways": 8,
+        "J_T": 0.16473636597873417,
+        "agg_err": 0.006083512684537967,
+        "cap_viol": 0.0
+      },
+      {
+        "kind": "fraction",
+        "scenario": "B",
+        "gw_fraction": 1.0,
+        "n_gateways": 15,
+        "J_T": 0.16466820924938141,
+        "agg_err": 0.00608545749417512,
+        "cap_viol": 0.0
+      },
+      {
+        "kind": "placement",
+        "placement": "spread(default)",
+        "J_T": 0.41421550135931695,
+        "agg_err": 0.01089428051772721,
+        "cap_viol": 0.0
+      },
+      {
+        "kind": "placement",
+        "placement": "clustered",
+        "J_T": 0.4233570488762876,
+        "agg_err": 0.01086734782691206,
+        "cap_viol": 0.0
+      }
+    ],
+    "agent_loss_A": {
+      "scenario": "A",
+      "n_before": 15,
+      "n_after": 14,
+      "dropped": 7,
+      "drop_time_min": 15.0,
+      "Ky_after": 0.3344437120075864,
+      "dmax_after": 2.8405377822694735,
+      "max_cap_violation": 0.0,
+      "agg_pre": 0.013399137805081942,
+      "agg_post_peak": 0.0392908779251182,
+      "first_return_min": 6.75,
+      "final_agg_err": 0.011625772500009447,
+      "J_T": 0.4221216874711573
+    },
+    "agent_loss_B": {
+      "scenario": "B",
+      "n_before": 15,
+      "n_after": 14,
+      "dropped": 7,
+      "drop_time_min": 70.0,
+      "Ky_after": 0.3344437120075864,
+      "dmax_after": 2.8405377822694735,
+      "max_cap_violation": 0.0,
+      "agg_pre": 0.006027708320568209,
+      "agg_post_peak": 0.015731856792595533,
+      "first_return_min": 50.75,
+      "final_agg_err": 0.006421570188800796,
+      "J_T": 0.16515133783041425
+    },
+    "comm_failure": [
+      {
+        "scenario": "A",
+        "mode": "blackout",
+        "win_min": 3.0,
+        "pre_spread": 0.003626476907346795,
+        "peak_spread": 0.012036612666459761,
+        "spread_ratio": 3.3190925997832963,
+        "recovery_min": 0.1,
+        "max_cap_violation": 0.0,
+        "final_agg_err": 0.011126836862696339
+      },
+      {
+        "scenario": "A",
+        "mode": "partition",
+        "win_min": 3.0,
+        "pre_spread": 0.003626476907346795,
+        "peak_spread": 0.0037193229599791692,
+        "spread_ratio": 1.0256022732267451,
+        "recovery_min": 0.0,
+        "max_cap_violation": 0.0,
+        "final_agg_err": 0.010928580693663056
+      },
+      {
+        "scenario": "B",
+        "mode": "blackout",
+        "win_min": 3.0,
+        "pre_spread": 0.0003273034636074878,
+        "peak_spread": 0.00255690769479628,
+        "spread_ratio": 7.8120398318259205,
+        "recovery_min": 0.2,
+        "max_cap_violation": 0.0,
+        "final_agg_err": 0.006082316195492529
+      },
+      {
+        "scenario": "B",
+        "mode": "partition",
+        "win_min": 3.0,
+        "pre_spread": 0.0003273034636074878,
+        "peak_spread": 0.0011045523100942645,
+        "spread_ratio": 3.3747040068566982,
+        "recovery_min": 0.2,
+        "max_cap_violation": 0.0,
+        "final_agg_err": 0.006082296596421122
+      }
+    ],
+    "_agent_loss_note": "agent_loss_{A,B} regenerated after the target-estimate initialisation was made local (non-gateway agents restart from the local no-information prior instead of the fleet-wide aggregate, both at t=0 and on reconfiguration). Pre-drop behaviour and zero capacity violation are unchanged; the post-drop transient is larger and slower because the harness no longer injects a fleet-wide quantity at the reconfiguration instant."
+  },
+  "ladder_capacity_violation_all_controllers": [
+    {
+      "regime": "soft",
+      "controller": "dsceos",
+      "max_capacity_violation": 0.0
+    },
+    {
+      "regime": "soft",
+      "controller": "projected_gradient_hocbf",
+      "max_capacity_violation": 0.0
+    },
+    {
+      "regime": "soft",
+      "controller": "independent_tracking",
+      "max_capacity_violation": 0.0
+    },
+    {
+      "regime": "feasible",
+      "controller": "dsceos",
+      "max_capacity_violation": 0.0
+    },
+    {
+      "regime": "feasible",
+      "controller": "projected_gradient_hocbf",
+      "max_capacity_violation": 0.0
+    },
+    {
+      "regime": "feasible",
+      "controller": "independent_tracking",
+      "max_capacity_violation": 0.0
+    },
+    {
+      "regime": "borderline-low",
+      "controller": "dsceos",
+      "max_capacity_violation": 0.0
+    },
+    {
+      "regime": "borderline-low",
+      "controller": "projected_gradient_hocbf",
+      "max_capacity_violation": 0.0
+    },
+    {
+      "regime": "borderline-low",
+      "controller": "independent_tracking",
+      "max_capacity_violation": 0.0
+    },
+    {
+      "regime": "borderline-mid",
+      "controller": "dsceos",
+      "max_capacity_violation": 0.0
+    },
+    {
+      "regime": "borderline-mid",
+      "controller": "projected_gradient_hocbf",
+      "max_capacity_violation": 0.0
+    },
+    {
+      "regime": "borderline-mid",
+      "controller": "independent_tracking",
+      "max_capacity_violation": 0.0
+    },
+    {
+      "regime": "borderline-high",
+      "controller": "dsceos",
+      "max_capacity_violation": 0.0
+    },
+    {
+      "regime": "borderline-high",
+      "controller": "projected_gradient_hocbf",
+      "max_capacity_violation": 0.0
+    },
+    {
+      "regime": "borderline-high",
+      "controller": "independent_tracking",
+      "max_capacity_violation": 0.0
+    },
+    {
+      "regime": "hard-stress",
+      "controller": "dsceos",
+      "max_capacity_violation": 0.0
+    },
+    {
+      "regime": "hard-stress",
+      "controller": "projected_gradient_hocbf",
+      "max_capacity_violation": 0.0
+    },
+    {
+      "regime": "hard-stress",
+      "controller": "independent_tracking",
+      "max_capacity_violation": 0.0
+    },
+    {
+      "regime": "extreme-infeasible",
+      "controller": "dsceos",
+      "max_capacity_violation": 0.0
+    },
+    {
+      "regime": "extreme-infeasible",
+      "controller": "projected_gradient_hocbf",
+      "max_capacity_violation": 0.0
+    },
+    {
+      "regime": "extreme-infeasible",
+      "controller": "independent_tracking",
+      "max_capacity_violation": 0.0
+    }
+  ],
+  "centralized_benchmark_deterministic": {
+    "rows": [
+      {
+        "cluster": "N15",
+        "n": 15,
+        "target": "nominal",
+        "reachable": true,
+        "analytic_nit": 49,
+        "analytic_nfev": 51,
+        "findiff_nfev": 1519,
+        "obj_gap": 1.5e-09
+      },
+      {
+        "cluster": "N15",
+        "n": 15,
+        "target": "extreme",
+        "reachable": false,
+        "analytic_nit": 9,
+        "analytic_nfev": 10,
+        "findiff_nfev": 310,
+        "obj_gap": 0.0
+      },
+      {
+        "cluster": "N60",
+        "n": 60,
+        "target": "nominal",
+        "reachable": true,
+        "analytic_nit": 108,
+        "analytic_nfev": 111,
+        "findiff_nfev": 14520,
+        "obj_gap": 1.56e-08
+      },
+      {
+        "cluster": "N60",
+        "n": 60,
+        "target": "extreme",
+        "reachable": false,
+        "analytic_nit": 19,
+        "analytic_nfev": 20,
+        "findiff_nfev": 2420,
+        "obj_gap": 0.0
+      }
+    ],
+    "unit_equivalent_work": {
+      "N15": 765,
+      "N60": 6660,
+      "N15_findiff": 22785,
+      "N60_findiff": 871200
+    },
+    "note": "Hardware-independent fields only; the millisecond fields are deliberately NOT asserted."
+  },
+  "fallback_per_agent": {
+    "soft": {
+      "n_agents": 30,
+      "steps": 300,
+      "fallback_instants": 33,
+      "agents_never": 5,
+      "agents_always": 0,
+      "per_agent_rate_median": 0.015,
+      "per_agent_rate_max": 0.08,
+      "top_quartile_share": 0.584
+    },
+    "feasible": {
+      "n_agents": 30,
+      "steps": 300,
+      "fallback_instants": 56,
+      "agents_never": 0,
+      "agents_always": 0,
+      "per_agent_rate_median": 0.0767,
+      "per_agent_rate_max": 0.16,
+      "top_quartile_share": 0.3926
+    },
+    "borderline-low": {
+      "n_agents": 30,
+      "steps": 300,
+      "fallback_instants": 73,
+      "agents_never": 0,
+      "agents_always": 0,
+      "per_agent_rate_median": 0.13,
+      "per_agent_rate_max": 0.19,
+      "top_quartile_share": 0.2932
+    },
+    "borderline-mid": {
+      "n_agents": 30,
+      "steps": 300,
+      "fallback_instants": 81,
+      "agents_never": 0,
+      "agents_always": 0,
+      "per_agent_rate_median": 0.19,
+      "per_agent_rate_max": 0.2267,
+      "top_quartile_share": 0.2702
+    },
+    "borderline-high": {
+      "n_agents": 30,
+      "steps": 300,
+      "fallback_instants": 300,
+      "agents_never": 0,
+      "agents_always": 0,
+      "per_agent_rate_median": 0.6617,
+      "per_agent_rate_max": 0.7233,
+      "top_quartile_share": 0.2577
+    },
+    "hard-stress": {
+      "n_agents": 30,
+      "steps": 300,
+      "fallback_instants": 300,
+      "agents_never": 0,
+      "agents_always": 0,
+      "per_agent_rate_median": 0.7867,
+      "per_agent_rate_max": 0.85,
+      "top_quartile_share": 0.2623
+    },
+    "extreme-infeasible": {
+      "n_agents": 30,
+      "steps": 300,
+      "fallback_instants": 300,
+      "agents_never": 0,
+      "agents_always": 0,
+      "per_agent_rate_median": 0.83,
+      "per_agent_rate_max": 0.88,
+      "top_quartile_share": 0.2558
+    }
+  },
+  "monte_carlo": {
+    "A": {
+      "seeds": 30,
+      "n_records": 270,
+      "min_distinct_graphs": 8,
+      "assert_dominance": true
+    },
+    "B": {
+      "seeds": 30,
+      "n_records": 270,
+      "min_distinct_graphs": 8,
+      "assert_dominance": false,
+      "outcomes": {
+        "A|paired DPG-HOCBF - D-SCEOS": "favourable",
+        "A|paired PD baseline - D-SCEOS": "dominant",
+        "B|paired DPG-HOCBF - D-SCEOS": "favourable",
+        "B|paired PD baseline - D-SCEOS": "dominant",
+        "C|paired DPG-HOCBF - D-SCEOS": "favourable",
+        "C|paired PD baseline - D-SCEOS": "dominant"
+      }
+    },
+    "C": {
+      "seeds": 10,
+      "n_cells": 16,
+      "grid": {
+        "w_bar_y": [
+          0.33,
+          0.67,
+          1.0,
+          1.5
+        ],
+        "lambda_s": [
+          0.05,
+          0.15,
+          0.3,
+          0.5
+        ]
+      },
+      "dsceos_lowest_cells": 16,
+      "min_separated_cells": 11,
+      "_min_separated_cells_note": "Lowered 12 -> 11 after the target-estimate initialisation was made local. D-SCEOS still attains the lowest mean in all 16 weight-grid cells; one cell's confidence interval now overlaps marginally. Recorded rather than absorbed."
+    },
+    "A_N60": {
+      "seeds": 30,
+      "n_records": 270,
+      "min_distinct_graphs": 8,
+      "assert_dominance": true
+    }
+  },
+  "primal_dual": {
+    "configs": {
+      "N15_A": {
+        "dpd_JT": 0.5206
+      },
+      "N15_B": {
+        "dpd_JT": 0.1691
+      },
+      "N15_C": {
+        "dpd_JT": 2.3107
+      },
+      "N60_A": {
+        "dpd_JT": 7.8359
+      },
+      "N60_B": {
+        "dpd_JT": 6.039
+      },
+      "N60_C": {
+        "dpd_JT": 15.7541
+      }
+    }
+  },
+  "fleet_compositions": {
+    "sizes": {
+      "15": {
+        "seeds": 20
+      },
+      "30": {
+        "seeds": 20
+      },
+      "60": {
+        "seeds": 20
+      },
+      "120": {
+        "seeds": 20
+      }
+    }
+  },
+  "solver_profile": {
+    "sizes": [
+      "15",
+      "30",
+      "60",
+      "120"
+    ]
+  }
+}

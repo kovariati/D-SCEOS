@@ -1,0 +1,15 @@
+{
+  "scenario": "A",
+  "n_before": 15,
+  "n_after": 14,
+  "dropped": 7,
+  "drop_time_min": 15.0,
+  "Ky_after": 0.3344437120075864,
+  "dmax_after": 2.8405377822694735,
+  "max_cap_violation": 0.0,
+  "agg_pre": 0.013399137805081942,
+  "agg_post_peak": 0.0392908779251182,
+  "first_return_min": 6.75,
+  "final_agg_err": 0.011625772500009447,
+  "J_T": 0.4221216874711573
+}

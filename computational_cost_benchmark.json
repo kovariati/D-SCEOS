@@ -1,0 +1,71 @@
+{
+  "environment": {
+    "note": "Millisecond fields are HARDWARE-DEPENDENT and specific to the machine and run that produced this file; they are NOT the wall-clock illustration quoted in the manuscript and are deliberately excluded from the validated claims. Only the deterministic fields (cluster, n, target, reachable, analytic_nit, analytic_nfev, findiff_nfev, obj_gap) are comparable across machines and are asserted by validate_results.py.",
+    "platform": "Linux-6.18.5-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "processor": "x86_64",
+    "python": "3.12.3",
+    "libraries": {
+      "numpy": "2.4.4",
+      "scipy": "1.17.1"
+    }
+  },
+  "rows": [
+    {
+      "cluster": "N15",
+      "n": 15,
+      "target": "nominal",
+      "reachable": true,
+      "dsceos_per_agent_ms": 0.44822455777776327,
+      "dsceos_step_ms": 6.723368366666449,
+      "analytic_ms": 12.572480000002884,
+      "analytic_nit": 49,
+      "analytic_nfev": 51,
+      "findiff_ms": 135.84108300000253,
+      "findiff_nfev": 1519,
+      "obj_gap": 1.4517048119166986e-09
+    },
+    {
+      "cluster": "N15",
+      "n": 15,
+      "target": "extreme",
+      "reachable": false,
+      "dsceos_per_agent_ms": 0.44822455777776327,
+      "dsceos_step_ms": 6.723368366666449,
+      "analytic_ms": 2.5419229999954496,
+      "analytic_nit": 9,
+      "analytic_nfev": 10,
+      "findiff_ms": 28.23779899999579,
+      "findiff_nfev": 310,
+      "obj_gap": 7.327471962526033e-15
+    },
+    {
+      "cluster": "N60",
+      "n": 60,
+      "target": "nominal",
+      "reachable": true,
+      "dsceos_per_agent_ms": 0.4128463972222226,
+      "dsceos_step_ms": 24.770783833333354,
+      "analytic_ms": 30.502691000009463,
+      "analytic_nit": 108,
+      "analytic_nfev": 111,
+      "findiff_ms": 1586.007913000003,
+      "findiff_nfev": 14520,
+      "obj_gap": 1.5596620023261565e-08
+    },
+    {
+      "cluster": "N60",
+      "n": 60,
+      "target": "extreme",
+      "reachable": false,
+      "dsceos_per_agent_ms": 0.4128463972222226,
+      "dsceos_step_ms": 24.770783833333354,
+      "analytic_ms": 6.2254690000003166,
+      "analytic_nit": 19,
+      "analytic_nfev": 20,
+      "findiff_ms": 221.09965200000659,
+      "findiff_nfev": 2420,
+      "obj_gap": 4.565237077258644e-13
+    }
+  ]
+}

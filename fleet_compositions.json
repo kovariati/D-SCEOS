@@ -1,0 +1,127 @@
+{
+ "experiment": "compositions",
+ "sizes": [
+  15,
+  30,
+  60,
+  120
+ ],
+ "seeds": 20,
+ "results": [
+  {
+   "N": 15,
+   "seeds": 20,
+   "max_cap_violation": 0.0,
+   "max_cap_violation_by_controller": {
+    "D-SCEOS": 0.0,
+    "DPG-HOCBF": 0.0,
+    "PD baseline": 0.0
+   },
+   "dsceos_max_cap_violation": 0.0,
+   "mean_target_over_capacity_P": 0.3077,
+   "mean_target_over_capacity_Q": 0.0937,
+   "mean_capacity_P_GW": 7.472,
+   "mean_neighbours": 4.54,
+   "DPG-HOCBF": {
+    "win_rate_dsceos": 1.0,
+    "mean_ratio": 2.8031,
+    "paired_diff_ci_low": 0.6001,
+    "paired_diff_ci_high": 1.7556
+   },
+   "PD baseline": {
+    "win_rate_dsceos": 1.0,
+    "mean_ratio": 6.8022,
+    "paired_diff_ci_low": 3.3599,
+    "paired_diff_ci_high": 5.4045
+   }
+  },
+  {
+   "N": 30,
+   "seeds": 20,
+   "max_cap_violation": 0.0,
+   "max_cap_violation_by_controller": {
+    "D-SCEOS": 0.0,
+    "DPG-HOCBF": 0.0,
+    "PD baseline": 0.0
+   },
+   "dsceos_max_cap_violation": 0.0,
+   "mean_target_over_capacity_P": 0.3077,
+   "mean_target_over_capacity_Q": 0.0937,
+   "mean_capacity_P_GW": 15.918,
+   "mean_neighbours": 4.96,
+   "DPG-HOCBF": {
+    "win_rate_dsceos": 1.0,
+    "mean_ratio": 2.636,
+    "paired_diff_ci_low": 1.7541,
+    "paired_diff_ci_high": 3.2221
+   },
+   "PD baseline": {
+    "win_rate_dsceos": 1.0,
+    "mean_ratio": 9.0747,
+    "paired_diff_ci_low": 11.4807,
+    "paired_diff_ci_high": 17.8185
+   }
+  },
+  {
+   "N": 60,
+   "seeds": 20,
+   "max_cap_violation": 0.0,
+   "max_cap_violation_by_controller": {
+    "D-SCEOS": 0.0,
+    "DPG-HOCBF": 0.0,
+    "PD baseline": 0.0
+   },
+   "dsceos_max_cap_violation": 0.0,
+   "mean_target_over_capacity_P": 0.3077,
+   "mean_target_over_capacity_Q": 0.0937,
+   "mean_capacity_P_GW": 31.503,
+   "mean_neighbours": 4.915,
+   "DPG-HOCBF": {
+    "win_rate_dsceos": 1.0,
+    "mean_ratio": 3.2623,
+    "paired_diff_ci_low": 6.869,
+    "paired_diff_ci_high": 9.2704
+   },
+   "PD baseline": {
+    "win_rate_dsceos": 1.0,
+    "mean_ratio": 8.8583,
+    "paired_diff_ci_low": 26.1124,
+    "paired_diff_ci_high": 32.2035
+   }
+  },
+  {
+   "N": 120,
+   "seeds": 20,
+   "max_cap_violation": 0.0031293,
+   "max_cap_violation_by_controller": {
+    "D-SCEOS": 0.0,
+    "DPG-HOCBF": 0.0,
+    "PD baseline": 0.0031293
+   },
+   "dsceos_max_cap_violation": 0.0,
+   "mean_target_over_capacity_P": 0.3077,
+   "mean_target_over_capacity_Q": 0.0937,
+   "mean_capacity_P_GW": 63.302,
+   "mean_neighbours": 4.887,
+   "DPG-HOCBF": {
+    "win_rate_dsceos": 1.0,
+    "mean_ratio": 3.6787,
+    "paired_diff_ci_low": 16.8022,
+    "paired_diff_ci_high": 21.2712
+   },
+   "PD baseline": {
+    "win_rate_dsceos": 1.0,
+    "mean_ratio": 9.442,
+    "paired_diff_ci_low": 56.596,
+    "paired_diff_ci_high": 69.5906
+   }
+  }
+ ],
+ "environment": {
+  "python": "3.12.3",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "platform": "Linux-6.18.5-x86_64-with-glibc2.39",
+  "machine": "x86_64"
+ }
+}

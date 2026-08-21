@@ -1,0 +1,10 @@
+{
+  "scenario": "A",
+  "fleet": "realistic_15",
+  "J_T": 0.4142155,
+  "n_agent_steps": 9000,
+  "max": 1.462651,
+  "mean": 0.012168,
+  "p95": 0.020199,
+  "frac_gt_1em3": 0.063444
+}

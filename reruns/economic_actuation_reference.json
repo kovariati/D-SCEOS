@@ -1,0 +1,56 @@
+[
+  {
+    "scenario": "A",
+    "controller": "dsceos",
+    "raw_actuation": 2.5897851197947137,
+    "cost_weighted": 1.3659456766604339
+  },
+  {
+    "scenario": "A",
+    "controller": "projected_gradient_hocbf",
+    "raw_actuation": 3.539024941717334,
+    "cost_weighted": 4.098777030302132
+  },
+  {
+    "scenario": "A",
+    "controller": "independent_tracking",
+    "raw_actuation": 3.1867680447044022,
+    "cost_weighted": 3.2120820566933768
+  },
+  {
+    "scenario": "B",
+    "controller": "dsceos",
+    "raw_actuation": 0.08056665952645173,
+    "cost_weighted": 0.02448157088335368
+  },
+  {
+    "scenario": "B",
+    "controller": "projected_gradient_hocbf",
+    "raw_actuation": 7.928208372162025,
+    "cost_weighted": 22.92530368586789
+  },
+  {
+    "scenario": "B",
+    "controller": "independent_tracking",
+    "raw_actuation": 0.02959360286570999,
+    "cost_weighted": 0.03150484421577097
+  },
+  {
+    "scenario": "C",
+    "controller": "dsceos",
+    "raw_actuation": 13.704747312930294,
+    "cost_weighted": 8.501564368162695
+  },
+  {
+    "scenario": "C",
+    "controller": "projected_gradient_hocbf",
+    "raw_actuation": 16.664801886946318,
+    "cost_weighted": 18.31211547478603
+  },
+  {
+    "scenario": "C",
+    "controller": "independent_tracking",
+    "raw_actuation": 17.78250281338778,
+    "cost_weighted": 20.18310759439399
+  }
+]

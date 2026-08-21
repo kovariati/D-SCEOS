@@ -1,0 +1,46 @@
+[
+  {
+    "scenario": "A",
+    "mode": "blackout",
+    "win_min": 3.0,
+    "pre_spread": 0.003626476907346795,
+    "peak_spread": 0.012036612666459761,
+    "spread_ratio": 3.3190925997832963,
+    "recovery_min": 0.1,
+    "max_cap_violation": 0.0,
+    "final_agg_err": 0.011126836862696339
+  },
+  {
+    "scenario": "A",
+    "mode": "partition",
+    "win_min": 3.0,
+    "pre_spread": 0.003626476907346795,
+    "peak_spread": 0.0037193229599791692,
+    "spread_ratio": 1.0256022732267451,
+    "recovery_min": 0.0,
+    "max_cap_violation": 0.0,
+    "final_agg_err": 0.010928580693663056
+  },
+  {
+    "scenario": "B",
+    "mode": "blackout",
+    "win_min": 3.0,
+    "pre_spread": 0.0003273034636074878,
+    "peak_spread": 0.00255690769479628,
+    "spread_ratio": 7.8120398318259205,
+    "recovery_min": 0.2,
+    "max_cap_violation": 0.0,
+    "final_agg_err": 0.006082316195492529
+  },
+  {
+    "scenario": "B",
+    "mode": "partition",
+    "win_min": 3.0,
+    "pre_spread": 0.0003273034636074878,
+    "peak_spread": 0.0011045523100942645,
+    "spread_ratio": 3.3747040068566982,
+    "recovery_min": 0.2,
+    "max_cap_violation": 0.0,
+    "final_agg_err": 0.006082296596421122
+  }
+]

@@ -1,0 +1,340 @@
+{
+  "ladder_soft": {
+    "production": {
+      "J_T": 3.4142143626458727,
+      "max_capacity_violation": 0.0,
+      "final_aggregate_error": 0.000990400271061752,
+      "calls": 9000,
+      "fallback": 242,
+      "fallback_rate": 0.02688888888888889,
+      "hard_resid_max": 1.0492132551664923e-08,
+      "mean_conic_iters": null,
+      "wall_s": 2.8
+    },
+    "clarabel": {
+      "J_T": 3.4134713642760968,
+      "max_capacity_violation": 0.0,
+      "final_aggregate_error": 0.0009904750259070673,
+      "calls": 9000,
+      "fallback": 0,
+      "fallback_rate": 0.0,
+      "hard_resid_max": 1.5333033731579349e-09,
+      "mean_conic_iters": 10.898444444444445,
+      "wall_s": 13.3
+    },
+    "delta_J_T": -0.0007429983697759823,
+    "rel_delta_pct": -0.021761913308811394
+  },
+  "ladder_feasible": {
+    "production": {
+      "J_T": 11.830437370000823,
+      "max_capacity_violation": 0.0,
+      "final_aggregate_error": 0.0016283847141823655,
+      "calls": 9000,
+      "fallback": 702,
+      "fallback_rate": 0.078,
+      "hard_resid_max": 1.146090888859419e-08,
+      "mean_conic_iters": null,
+      "wall_s": 3.3
+    },
+    "clarabel": {
+      "J_T": 11.829169765350082,
+      "max_capacity_violation": 0.0,
+      "final_aggregate_error": 0.001628459022893591,
+      "calls": 9000,
+      "fallback": 0,
+      "fallback_rate": 0.0,
+      "hard_resid_max": 1.5296131472553043e-08,
+      "mean_conic_iters": 10.829444444444444,
+      "wall_s": 13.4
+    },
+    "delta_J_T": -0.0012676046507404948,
+    "rel_delta_pct": -0.010714774197231616
+  },
+  "ladder_borderline-low": {
+    "production": {
+      "J_T": 27.982878882452727,
+      "max_capacity_violation": 0.0,
+      "final_aggregate_error": 0.002184254822974857,
+      "calls": 9000,
+      "fallback": 1142,
+      "fallback_rate": 0.12688888888888888,
+      "hard_resid_max": 1.3769487328119112e-08,
+      "mean_conic_iters": null,
+      "wall_s": 3.8
+    },
+    "clarabel": {
+      "J_T": 27.97815677543086,
+      "max_capacity_violation": 0.0,
+      "final_aggregate_error": 0.002184346651995622,
+      "calls": 9000,
+      "fallback": 0,
+      "fallback_rate": 0.0,
+      "hard_resid_max": 5.015534876307015e-09,
+      "mean_conic_iters": 10.796777777777777,
+      "wall_s": 12.9
+    },
+    "delta_J_T": -0.004722107021866151,
+    "rel_delta_pct": -0.016874986457620166
+  },
+  "ladder_borderline-mid": {
+    "production": {
+      "J_T": 54.793550284711664,
+      "max_capacity_violation": 0.0,
+      "final_aggregate_error": 0.0028538557770946787,
+      "calls": 9000,
+      "fallback": 1658,
+      "fallback_rate": 0.18422222222222223,
+      "hard_resid_max": 1.3259152220612691e-08,
+      "mean_conic_iters": null,
+      "wall_s": 4.1
+    },
+    "clarabel": {
+      "J_T": 54.78281885820911,
+      "max_capacity_violation": 0.0,
+      "final_aggregate_error": 0.002853847630830302,
+      "calls": 9000,
+      "fallback": 0,
+      "fallback_rate": 0.0,
+      "hard_resid_max": 1.5752588011785917e-08,
+      "mean_conic_iters": 10.865222222222222,
+      "wall_s": 12.7
+    },
+    "delta_J_T": -0.01073142650255221,
+    "rel_delta_pct": -0.019585200168251302
+  },
+  "ladder_borderline-high": {
+    "production": {
+      "J_T": 119.02980879174503,
+      "max_capacity_violation": 0.0,
+      "final_aggregate_error": 0.050110791912851164,
+      "calls": 9000,
+      "fallback": 5755,
+      "fallback_rate": 0.6394444444444445,
+      "hard_resid_max": 1.413075800815733e-08,
+      "mean_conic_iters": null,
+      "wall_s": 9.3
+    },
+    "clarabel": {
+      "J_T": 118.98914177372967,
+      "max_capacity_violation": 0.0,
+      "final_aggregate_error": 0.050112484271048675,
+      "calls": 9000,
+      "fallback": 0,
+      "fallback_rate": 0.0,
+      "hard_resid_max": 4.5754161681621497e-07,
+      "mean_conic_iters": 9.512,
+      "wall_s": 13.6
+    },
+    "delta_J_T": -0.04066701801535544,
+    "rel_delta_pct": -0.034165406487803904
+  },
+  "ladder_hard-stress": {
+    "production": {
+      "J_T": 171.12179143952696,
+      "max_capacity_violation": 0.0,
+      "final_aggregate_error": 0.10013700593077293,
+      "calls": 9000,
+      "fallback": 6632,
+      "fallback_rate": 0.7368888888888889,
+      "hard_resid_max": 1.3211653659972455e-08,
+      "mean_conic_iters": null,
+      "wall_s": 9.7
+    },
+    "clarabel": {
+      "J_T": 161.3572168514665,
+      "max_capacity_violation": 0.0,
+      "final_aggregate_error": 0.10012118028135897,
+      "calls": 9000,
+      "fallback": 0,
+      "fallback_rate": 0.0,
+      "hard_resid_max": 4.5875261422967384e-08,
+      "mean_conic_iters": 9.787333333333333,
+      "wall_s": 13.3
+    },
+    "delta_J_T": -9.76457458806047,
+    "rel_delta_pct": -5.706213396854947
+  },
+  "ladder_extreme-infeasible": {
+    "production": {
+      "J_T": 298.0734667100541,
+      "max_capacity_violation": 0.0,
+      "final_aggregate_error": 0.20016616725194344,
+      "calls": 9000,
+      "fallback": 7110,
+      "fallback_rate": 0.79,
+      "hard_resid_max": 1.2364758716909563e-08,
+      "mean_conic_iters": null,
+      "wall_s": 9.6
+    },
+    "clarabel": {
+      "J_T": 278.68297941936316,
+      "max_capacity_violation": 0.0,
+      "final_aggregate_error": 0.20012733461370588,
+      "calls": 9000,
+      "fallback": 0,
+      "fallback_rate": 0.0,
+      "hard_resid_max": 7.652019956561062e-08,
+      "mean_conic_iters": 9.810666666666666,
+      "wall_s": 13.1
+    },
+    "delta_J_T": -19.390487290690942,
+    "rel_delta_pct": -6.5052711684508
+  },
+  "N15_a": {
+    "production": {
+      "J_T": 0.41421550135931695,
+      "max_capacity_violation": 0.0,
+      "final_aggregate_error": 0.01089428051772721,
+      "calls": 9000,
+      "fallback": 15,
+      "fallback_rate": 0.0016666666666666668,
+      "hard_resid_max": 2.173797655768972e-08,
+      "mean_conic_iters": null,
+      "wall_s": 2.8
+    },
+    "clarabel": {
+      "J_T": 0.41425659030285716,
+      "max_capacity_violation": 0.0,
+      "final_aggregate_error": 0.010894717157379726,
+      "calls": 9000,
+      "fallback": 0,
+      "fallback_rate": 0.0,
+      "hard_resid_max": 6.226080484506014e-10,
+      "mean_conic_iters": 11.382777777777777,
+      "wall_s": 14.0
+    },
+    "delta_J_T": 4.108894354021286e-05,
+    "rel_delta_pct": 0.009919702040453018
+  },
+  "N15_b": {
+    "production": {
+      "J_T": 0.16530252736030476,
+      "max_capacity_violation": 0.0,
+      "final_aggregate_error": 0.006082291003247753,
+      "calls": 42000,
+      "fallback": 0,
+      "fallback_rate": 0.0,
+      "hard_resid_max": 0.0,
+      "mean_conic_iters": null,
+      "wall_s": 11.6
+    },
+    "clarabel": {
+      "J_T": 0.1653099058478576,
+      "max_capacity_violation": 0.0,
+      "final_aggregate_error": 0.006083017561269138,
+      "calls": 42000,
+      "fallback": 0,
+      "fallback_rate": 0.0,
+      "hard_resid_max": 0.0,
+      "mean_conic_iters": 11.623547619047619,
+      "wall_s": 65.8
+    },
+    "delta_J_T": 7.378487552833768e-06,
+    "rel_delta_pct": 0.004463626582521094
+  },
+  "N15_c": {
+    "production": {
+      "J_T": 1.539968693155352,
+      "max_capacity_violation": 0.0,
+      "final_aggregate_error": 0.006403148761105584,
+      "calls": 27000,
+      "fallback": 112,
+      "fallback_rate": 0.004148148148148148,
+      "hard_resid_max": 2.0973035308458066e-08,
+      "mean_conic_iters": null,
+      "wall_s": 8.5
+    },
+    "clarabel": {
+      "J_T": 1.5400889665410389,
+      "max_capacity_violation": 0.0,
+      "final_aggregate_error": 0.006403761013610401,
+      "calls": 27000,
+      "fallback": 0,
+      "fallback_rate": 0.0,
+      "hard_resid_max": 4.014891885617544e-08,
+      "mean_conic_iters": 11.378074074074075,
+      "wall_s": 41.0
+    },
+    "delta_J_T": 0.0001202733856868754,
+    "rel_delta_pct": 0.007810118882380567
+  },
+  "N60_a": {
+    "production": {
+      "J_T": 2.3252507996174647,
+      "max_capacity_violation": 0.0,
+      "final_aggregate_error": 0.019183493151272622,
+      "calls": 36000,
+      "fallback": 83,
+      "fallback_rate": 0.0023055555555555555,
+      "hard_resid_max": 2.101618293282037e-08,
+      "mean_conic_iters": null,
+      "wall_s": 9.5
+    },
+    "clarabel": {
+      "J_T": 2.3252283107194813,
+      "max_capacity_violation": 0.0,
+      "final_aggregate_error": 0.01918392360231678,
+      "calls": 36000,
+      "fallback": 0,
+      "fallback_rate": 0.0,
+      "hard_resid_max": 6.283453757305324e-10,
+      "mean_conic_iters": 11.451972222222222,
+      "wall_s": 54.3
+    },
+    "delta_J_T": -2.2488897983397038e-05,
+    "rel_delta_pct": -0.0009671601010564867
+  },
+  "N60_b": {
+    "production": {
+      "J_T": 1.2206626920561132,
+      "max_capacity_violation": 0.0,
+      "final_aggregate_error": 0.01135142598994869,
+      "calls": 168000,
+      "fallback": 0,
+      "fallback_rate": 0.0,
+      "hard_resid_max": 0.0,
+      "mean_conic_iters": null,
+      "wall_s": 41.2
+    },
+    "clarabel": {
+      "J_T": 1.2206865284108632,
+      "max_capacity_violation": 0.0,
+      "final_aggregate_error": 0.01135222581595527,
+      "calls": 168000,
+      "fallback": 0,
+      "fallback_rate": 0.0,
+      "hard_resid_max": 0.0,
+      "mean_conic_iters": 11.624315476190477,
+      "wall_s": 251.9
+    },
+    "delta_J_T": 2.383635475000645e-05,
+    "rel_delta_pct": 0.0019527388610407947
+  },
+  "N60_c": {
+    "production": {
+      "J_T": 7.394431289740692,
+      "max_capacity_violation": 0.0,
+      "final_aggregate_error": 0.011494642559124949,
+      "calls": 108000,
+      "fallback": 920,
+      "fallback_rate": 0.008518518518518519,
+      "hard_resid_max": 2.3054894354723743e-08,
+      "mean_conic_iters": null,
+      "wall_s": 28.0
+    },
+    "clarabel": {
+      "J_T": 7.3954594312830615,
+      "max_capacity_violation": 0.0,
+      "final_aggregate_error": 0.011495182954387978,
+      "calls": 108000,
+      "fallback": 0,
+      "fallback_rate": 0.0,
+      "hard_resid_max": 2.841026469635466e-09,
+      "mean_conic_iters": 11.370333333333333,
+      "wall_s": 157.4
+    },
+    "delta_J_T": 0.0010281415423696316,
+    "rel_delta_pct": 0.013904267983341915
+  }
+}

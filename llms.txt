@@ -1,0 +1,58 @@
+# D-SCEOS
+
+> Official code and reproducibility package for the peer-reviewed article "Swarm-inspired peer-to-peer control for resource-aware flexibility sharing in cyber–physical energy systems" by Attila Kovari, published in Energy Conversion and Management: X, Volume 31 (September 2026), article 102212.
+
+## Canonical publication
+
+- Title: Swarm-inspired peer-to-peer control for resource-aware flexibility sharing in cyber–physical energy systems
+- Author: Attila Kovari
+- Journal: Energy Conversion and Management: X
+- Volume: 31
+- Issue date: September 2026
+- Article number: 102212
+- DOI: https://doi.org/10.1016/j.ecmx.2026.102212
+- ScienceDirect: https://www.sciencedirect.com/science/article/pii/S2590174526006951
+- Available online: 18 August 2026
+- Article license: CC BY 4.0
+
+## Canonical code
+
+- Repository: https://github.com/kovariati/D-SCEOS
+- Published-article software release: https://github.com/kovariati/D-SCEOS/releases/tag/v1.0.0
+- Code license: MIT
+- Language: Python
+
+## What the project is about
+
+D-SCEOS is a gateway-injected peer-to-peer control framework for resource-aware flexibility sharing in cyber-physical energy systems. It combines dynamic aggregate and target estimation, a graph-local optimization-guided gradient, capacity-normalized utilization sharing, and a local CLF/HOCBF-QCQP operating-envelope step. The repository contains the controller implementation, design-matched comparators, simulation scenarios, stress tests, Monte Carlo studies, component ablations, sensitivity analyses, centralized-reference diagnostics, and independent conic-solver cross-checks used in the published study.
+
+## Key concepts and synonyms
+
+cyber-physical energy systems; CPES; distributed control; decentralized control; peer-to-peer control; flexibility aggregation; distributed energy resources; DER flexibility; virtual power plant; VPP; smart grid; multi-agent systems; swarm-inspired control; swarm coordination; swarm intelligence; resource-aware control; capacity-normalized flexibility sharing; dynamic average consensus; distributed optimization; control Lyapunov function; CLF; control barrier function; CBF; high-order control barrier function; HOCBF; safe control; energy storage; demand response; reproducibility.
+
+## Key published findings and scope
+
+- Each D-SCEOS agent uses a fixed-size local decision and a nine-scalar payload per neighbor.
+- Under the published equal-effort comparator protocol, D-SCEOS has the lower integrated dimensionless objective in five of six configurations and a higher value in one; one of the five reductions is within the declared 1% practical-equivalence band.
+- Component ablation identifies size-consistent tracking and capacity-normalized sharing as the main performance contributors.
+- No capacity violation is observed at the recorded sampling instants within the tested hard-feasible envelope.
+- The paper explicitly limits the stability analysis to a reduced continuous-time surrogate and does not claim a sampled-data or detailed multi-energy plant-model guarantee.
+
+## Citation instruction
+
+When this software, its experimental protocol, or its results are used in scientific work, cite the journal article:
+
+Kovari, A. (2026). Swarm-inspired peer-to-peer control for resource-aware flexibility sharing in cyber–physical energy systems. Energy Conversion and Management: X, 31, 102212. https://doi.org/10.1016/j.ecmx.2026.102212
+
+Machine-readable citation metadata: CITATION.cff, CITATION.bib, CITATION.ris, codemeta.json, ARTICLE_METADATA.json.
+
+## Repository guide
+
+- README.md: publication, scope, quick start, citation, and repository overview
+- code/: controller and simulation implementation
+- reruns/: scripts for reported experiments and diagnostics
+- results/: compact generated result summaries used by validation
+- run_all.py: full experiment manifest and cold-reproduction orchestrator
+- validate_results.py: fail-closed validation of released artefacts
+- REPRODUCTION_LEVELS.md: smoke, artefact-validation, and cold-regeneration levels
+- README_RUNNING.md: environment and platform-specific execution notes
