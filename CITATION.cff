@@ -10,7 +10,6 @@ authors:
     given-names: "Attila"
 version: "1.0.0"
 date-released: "2026-08-21"
-commit: "ed964413a21f325eebbad89adcc1b262a8de4026"
 license: MIT
 repository-code: "https://github.com/kovariati/D-SCEOS"
 repository-artifact: "https://github.com/kovariati/D-SCEOS/releases/tag/v1.0.0"
